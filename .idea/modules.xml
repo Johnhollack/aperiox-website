@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Documents/NextJs/apeirox/.idea/apeirox.iml" filepath="$USER_HOME$/Documents/NextJs/apeirox/.idea/apeirox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/website.iml" filepath="$PROJECT_DIR$/.idea/website.iml" />
     </modules>
   </component>
