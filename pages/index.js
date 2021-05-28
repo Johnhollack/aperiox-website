@@ -5,6 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 import {windowWidth} from "../utils/Dimentions";
+import Mobile from "../components/Mobile";
+import Desktop from "../components/Desktop";
 
 
 
@@ -24,20 +26,9 @@ function App() {
 
   return (
     <View style={styles.container}>
-      <Head>
-        <title>Apeirox</title>
-        <meta name="Apeirox" content="Connecting Trades" />
-        <link rel="icon" href="/logo.svg" />
-      </Head>
-
-      <Header />
-
         {
-            isMobile ? <p>Is Mobile Screen</p> : <NavBar />
+            isMobile ? <Mobile /> : <Desktop />
         }
-
-
-      <p className="text-gray-300 font-bold">Welcome to Expo + Next.js 👋</p>
     </View>
   );
 }
