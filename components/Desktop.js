@@ -11,7 +11,7 @@ import {
     faTwitter,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee,  } from '@fortawesome/free-solid-svg-icons';
 
 import {
     MailIcon
@@ -26,21 +26,21 @@ function Desktop() {
     return (
         <View style={styles.container}>
             <Head>
-                <title>goFree: Just be free</title>
-                <meta name="goFree" content="Connecting your everyday life" />
-                <link rel="icon" href="/logo.png" />
+                <title>GoFree: Chat, Call & Bank for free</title>
+                <meta name="goFree" content="Just be free" />
+                <link rel="icon" href="/icon.svg" />
             </Head>
 
             <div className="mt-10 h-auto flex flex-col w-screen justify-center items-center">
-                {/* <img src="/gofree-logo.png" alt="gofree-logo" width={100} height={50}/> */}
-                <p className="mb-10 font-bold text-center text-2xl text-blue-400">goFree</p>
-                    <p className="ml-1 mt-10  text-center text-sm font-medium ">Hey 👋</p>
-                    <p className="ml-1 mt-5  text-center text-sm font-medium ">WE'RE STILL</p>
+                <img src="/icon.svg" alt="gofree-logo" width={30} height={30}/>
+                <p className="mb-10 font-bold text-center text-2xl text-blue-400">Gofree</p>
+                    <p className="ml-1 mt-10  text-center text-sm font-medium ">Hey 👋 We're still</p>
                     <p className="ml-1 mt-5  text-center text-2xl text-blue-400 font-medium ">Cooking Our Website </p>
-                    <p className="ml-1 mt-5  text-center font-medium text-sm ">We are going to launch our website very soon, stay tuned.</p>
+                    <p className="ml-1 mt-5  text-center font-medium text-sm ">We are going to launch our website very soon, follow our social handles to stay tuned.</p>
             </div>
 
             <div className="flex flex-row h-10 my-10 rounded-full bg-blue-400 hover:bg-blue-500 w-36 justify-center items-center focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ">
+
                 <button className="font-bold text-sm pl-2 text-white ">Notify me</button>
             </div>
 
