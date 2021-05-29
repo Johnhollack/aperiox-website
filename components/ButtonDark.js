@@ -10,7 +10,7 @@ function ButtonDark({title, icon, subtitle}) {
             style={styles.registerContainer}
         >
             <View style={styles.icon}>
-                <FontAwesomeIcon icon={icon}  className="h-5 text-white"/>
+                <FontAwesomeIcon icon={icon}  className="h-5 text-gray-500"/>
             </View>
             <View style={styles.textContainer}>
                 <Text style={styles.text0}>{subtitle}</Text>
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     registerContainer: {
         flexDirection: 'row',
         borderWidth: 1,
-        borderColor: 'white',
+        borderColor: '#111',
         backgroundColor: 'transparent',
         width: 130,
         height: 40,
@@ -45,11 +45,11 @@ const styles = StyleSheet.create({
     text0: {
         fontSize: 10,
         fontWeight: 400,
-        color: 'white'
+        color: '#111'
     },
     text1: {
         fontSize: 12,
         fontWeight: 600,
-        color: 'white'
+        color: '#111'
     },
 });

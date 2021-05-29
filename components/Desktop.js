@@ -1,57 +1,64 @@
 // @generated: @expo/next-adapter@2.1.75
 import React, {useEffect, useState} from 'react';
 import Head from 'next/head';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
-import Header from "../components/Header";
-import NavBar from "../components/NavBar";
-import ButtonYellow from "./ButtonYellow";
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from 'react-native';
 import ButtonDark from "./ButtonDark";
-import { faGooglePlay, faApple, faTelegram } from "@fortawesome/free-brands-svg-icons";
-import BodyOne from "./BodyOne";
+import {
+    faGooglePlay,
+    faApple,
+    faTelegram,
+    faFacebook,
+    faTwitter,
+    faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
+import {
+    MailIcon
+} from "@heroicons/react/outline";
 
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import HeaderItem from "./HeaderItem";
 
 function Desktop() {
 
-    const [message, setMessage] = useState('');
 
     return (
         <View style={styles.container}>
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
-                <link rel="icon" href="/logo.svg" />
+                <title>goFree: Just be free</title>
+                <meta name="goFree" content="Connecting your everyday life" />
+                <link rel="icon" href="/logo.png" />
             </Head>
 
-            <Header />
+            <div className="mt-10 h-auto flex flex-col w-screen justify-center items-center">
+                {/* <img src="/gofree-logo.png" alt="gofree-logo" width={100} height={50}/> */}
+                <p className="mb-10 font-bold text-center text-2xl text-blue-400">goFree</p>
+                    <p className="ml-1 mt-10  text-center text-sm font-medium ">Hey 👋</p>
+                    <p className="ml-1 mt-5  text-center text-sm font-medium ">WE'RE STILL</p>
+                    <p className="ml-1 mt-5  text-center text-2xl text-blue-400 font-medium ">Cooking Our Website </p>
+                    <p className="ml-1 mt-5  text-center font-medium text-sm ">We are going to launch our website very soon, stay tuned.</p>
+            </div>
 
-            <NavBar />
+            <div className="flex flex-row h-10 my-10 rounded-full bg-blue-400 hover:bg-blue-500 w-36 justify-center items-center focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ">
+                <button className="font-bold text-sm pl-2 text-white ">Notify me</button>
+            </div>
 
-            <View style={styles.textTitleContainer}>
-                <Text style={styles.textTitle}>Buy, Sell and Trade Commodities in Minutes</Text>
-                <Text style={styles.textSubtitle}>Get Started with as little as 500NGN</Text>
-            </View>
 
-            <View style={styles.inputContainer}>
-                <View style={styles.emailContainer} >
-                    <TextInput
-                        placeholder={'Email Address'}
-                        style={styles.textInput}
-                        value={message}
-                        onChangeText={setMessage}
-                    />
-                </View>
+            <div className="my-10 flex flex-row items-center ">
+                <HeaderItem icon={faFacebook} url="https://facebook.com/gofreeHQ" />
+                <HeaderItem icon={faTwitter} url="https://twitter.com/gofreeHQ" />
+                <HeaderItem icon={faInstagram} url="https://instagram.com/gofreeHQ" />
+            </div>
 
-                <ButtonYellow title="Register Now"/>
-            </View>
 
-            <View style={styles.downloadContainer}>
-                <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay} />
-                <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
-                <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram} />
-            </View>
 
-            <BodyOne className="scrollbar-hide" />
+            <div className="mt-1 flex w-screen justify-center">
+                <ButtonDark subtitle="COMING SOON" title="Google PlayStore" icon={faGooglePlay} />
+                <ButtonDark subtitle="COMING SOON" title="App Store" icon={faApple} />
+            </div>
+
+
 
 
         </View>
@@ -65,55 +72,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'flex-start',
-        alignItems: 'flex-start',
+        alignItems: 'center',
     },
-    text: {
-        fontSize: 16,
-    },
-    textTitleContainer: {
-        width: 500,
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-        marginTop: 100,
-        marginLeft: 50,
-    },
-    textTitle: {
-        fontSize: 34,
-        fontWeight: 'bold',
-        color: 'whitesmoke',
-        lineHeight: 50,
-    },
-    textSubtitle: {
-        fontSize: 16,
-        fontWeight: 600,
-        lineHeight: 22,
-        color: '#969494',
-        paddingTop: 10,
-    },
-    inputContainer: {
-        flexDirection: 'row',
-        marginTop: 40,
-    },
-    emailContainer: {
-        backgroundColor: 'white',
-        width: 300,
-        height: 40,
-        borderRadius: 5,
-        marginLeft: 50,
-        alignItems: "baseline",
-    },
-    textInput: {
-        width: '100%',
-        height: '100%',
-        color: 'black',
-        paddingHorizontal: 10,
-        fontSize: 14,
-        fontWeight: 'normal',
-    },
-    downloadContainer: {
-        flexDirection: 'row',
-       marginTop: 40,
-       marginLeft: 50,
-        width: 600,
-    },
+
 });
