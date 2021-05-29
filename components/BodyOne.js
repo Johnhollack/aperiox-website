@@ -7,7 +7,7 @@ import ModalSheet from "./ModalSheet";
 
 function BodyOne() {
 
-    const [modalVisible, setModalVisible] = useState(true);
+    const [modalVisible, setModalVisible] = useState(false);
 
     const onPress = () => {
     };
