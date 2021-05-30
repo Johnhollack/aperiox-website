@@ -8,6 +8,10 @@ import ButtonYellow from "./ButtonYellow";
 import ButtonDark from "./ButtonDark";
 import { faGooglePlay, faApple, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import BodyOne from "./BodyOne";
+import {windowWidth} from "../utils/Dimentions";
+import BodyTwo from "./BodyTwo";
+import Team from "./Team";
+import Footer from "./Footer";
 
 
 
@@ -16,7 +20,7 @@ function Desktop() {
     const [message, setMessage] = useState('');
 
     return (
-        <View style={styles.container}>
+        <div className="flex flex-col ">
             <Head>
                 <title>Apeirox</title>
                 <meta name="Apeirox" content="Connecting Trades" />
@@ -27,34 +31,42 @@ function Desktop() {
 
             <NavBar />
 
-            <View style={styles.textTitleContainer}>
-                <Text style={styles.textTitle}>Buy, Sell and Trade Commodities in Minutes</Text>
-                <Text style={styles.textSubtitle}>Get Started with as little as 500NGN</Text>
-            </View>
-
-            <View style={styles.inputContainer}>
-                <View style={styles.emailContainer} >
-                    <TextInput
-                        placeholder={'Email Address'}
-                        style={styles.textInput}
-                        value={message}
-                        onChangeText={setMessage}
-                    />
+            <div className="ml-10 ">
+                <View style={styles.textTitleContainer}>
+                    <Text style={styles.textTitle}>Buy, Sell and Trade Commodities in Minutes</Text>
+                    <Text style={styles.textSubtitle}>Get Started with as little as 500NGN</Text>
                 </View>
 
-                <ButtonYellow title="Register Now"/>
-            </View>
+                <View style={styles.inputContainer}>
+                    <View style={styles.emailContainer} >
+                        <TextInput
+                            placeholder={'Email Address'}
+                            style={styles.textInput}
+                            value={message}
+                            onChangeText={setMessage}
+                        />
+                    </View>
+                    <ButtonYellow title="Register Now"/>
+                </View>
 
-            <View style={styles.downloadContainer}>
-                <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay} />
-                <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
-                <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram} />
-            </View>
+                <View style={styles.downloadContainer}>
+                    <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay} />
+                    <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
+                    <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram} />
+                </View>
+            </div>
 
-            <BodyOne className="scrollbar-hide" />
+            <BodyOne className=" "/>
+
+            <BodyTwo className=" "/>
+
+            <Team className=" "/>
+
+            <Footer className=" "/>
 
 
-        </View>
+
+        </div>
     );
 }
 
@@ -64,6 +76,7 @@ export default Desktop;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
     },
@@ -75,7 +88,6 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
         marginTop: 100,
-        marginLeft: 50,
     },
     textTitle: {
         fontSize: 34,
@@ -99,7 +111,6 @@ const styles = StyleSheet.create({
         width: 300,
         height: 40,
         borderRadius: 5,
-        marginLeft: 50,
         alignItems: "baseline",
     },
     textInput: {
@@ -113,7 +124,6 @@ const styles = StyleSheet.create({
     downloadContainer: {
         flexDirection: 'row',
        marginTop: 40,
-       marginLeft: 50,
         width: 600,
     },
 });

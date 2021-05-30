@@ -7,67 +7,66 @@ import ModalSheet from "./ModalSheet";
 
 function BodyOne() {
 
-    const [modalVisible, setModalVisible] = useState(false);
+    // const [modalVisible, setModalVisible] = useState(false);
 
     const onPress = () => {
+
     };
 
 
 
     return (
-        <View style={styles.container}>
+        <div className="flex bg-white mt-20">
 
-            <div className=" flex flex-row">
-                <div className="w-1/2">
-                    <View style={styles.topContainer}>
-                        <Text style={styles.textTitle}>Start buying with crypto</Text>
-                    </View>
+            <div className="w-1/2 h-auto ml-10 my-10 " >
+                <View style={styles.topContainer}>
+                    <Text style={styles.textTitle}>Start buying with crypto</Text>
+                </View>
 
-                    <View style={styles.navigationContainer}>
-                        <div className=" ">
-                            <TouchableOpacity
-                                onPress={onPress}
-                                style={styles.buttonContainer1}>
-                                <Text>Peer to Peer Trading</Text>
-                            </TouchableOpacity>
-                        </div>
+                <View style={styles.navigationContainer}>
+                    <div className=" ">
+                        <TouchableOpacity
+                            onPress={onPress}
+                            style={styles.buttonContainer1}>
+                            <Text>Peer to Peer Trading</Text>
+                        </TouchableOpacity>
+                    </div>
 
-                        <div className="cursor-pointer w-28 transition duration-100 hover:bg-gray-300 rounded-full">
-                            <TouchableOpacity
-                                onPress={onPress}
-                                style={styles.buttonContainer2}>
-                                <Text>Buy Crypto</Text>
-                            </TouchableOpacity>
-                        </div>
+                    <div className="cursor-pointer w-28 transition duration-100 hover:bg-gray-300 rounded-full">
+                        <TouchableOpacity
+                            onPress={onPress}
+                            style={styles.buttonContainer2}>
+                            <Text>Buy Crypto</Text>
+                        </TouchableOpacity>
+                    </div>
 
-                        <div className="cursor-pointer w-28 transition duration-100 hover:bg-gray-300 rounded-full">
-                            <TouchableOpacity
-                                onPress={onPress}
-                                style={styles.buttonContainer2}>
-                                <Text>Fiat Deposit</Text>
-                            </TouchableOpacity>
-                        </div >
-                    </View>
+                    <div className="cursor-pointer w-28 transition duration-100 hover:bg-gray-300 rounded-full">
+                        <TouchableOpacity
+                            onPress={onPress}
+                            style={styles.buttonContainer2}>
+                            <Text>Fiat Deposit</Text>
+                        </TouchableOpacity>
+                    </div >
+                </View>
 
-                    <ModalSheet
+                {/* <ModalSheet
                         modalVisible={modalVisible}
                         setModalVisible={setModalVisible}
 
-                    />
-                </div>
+                    /> */}
+            </div>
 
-                <div className="flex w-1/2 mt-10">
-                    <Image
-                        style={{width: 600, height: 400}}
-                        source={require('../public/gifmock.gif')}
+            <div className="flex w-1/2 h-auto mr-10 my-10 ">
+                <Image
+                    style={{width: 600, height: 400}}
+                    source={require('../public/gifmock.gif')}
 
-                    />
-                </div>
+                />
             </div>
 
 
 
-        </View>
+        </div>
     )
 }
 
@@ -75,12 +74,8 @@ export default BodyOne;
 
 const styles = StyleSheet.create({
     container: {
-        top: 600,
-        width: '100%',
-        height: 500,
+        flex: 1,
         backgroundColor: "white",
-        paddingHorizontal: 50,
-        position: 'absolute',
     },
     topContainer: {
         marginTop: 50,
