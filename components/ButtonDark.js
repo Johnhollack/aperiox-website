@@ -4,9 +4,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 
-function ButtonDark({title, icon, subtitle}) {
+function ButtonDark({title, icon, subtitle, onPress}) {
     return (
         <TouchableOpacity
+            onPress={onPress}
             style={styles.registerContainer}
         >
             <View style={styles.icon}>

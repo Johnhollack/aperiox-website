@@ -2,14 +2,18 @@ import React from 'react'
 import {StyleSheet, Text, TouchableOpacity} from "react-native";
 
 
+const onPress = () => {
+
+};
 
 function ButtonYellow({title}) {
     return (
-        <TouchableOpacity
-            style={styles.registerContainer}
+        <button
+            onClick={onPress}
+            className="cursor-pointer w-28 h-10 bg-yellow-500 justify-center items-center transition duration-100 hover:bg-yellow-400 active:bg-yellow-400 rounded"
         >
-            <Text style={styles.registerText}>{title}</Text>
-        </TouchableOpacity>
+            <p className="font-semibold text-sm text-black">{title}</p>
+        </button>
     )
 }
 
@@ -21,7 +25,6 @@ const styles = StyleSheet.create({
         width: 120,
         height: 40,
         borderRadius: 5,
-        marginLeft: 20,
         alignItems: "center",
         justifyContent: "center",
     },

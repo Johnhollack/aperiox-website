@@ -17,24 +17,27 @@ import {
 } from "@heroicons/react/outline";
 import NavItem from "./NavItem";
 import React from "react";
+import {useRouter} from "next/router";
 
 
 
 function NavBar() {
+    const router =useRouter();
+
     return (
         <header className="flex flex-col w-screen sm:flex-row my-1 justify-between items-center h-auto">
             <div className="flex flex-grow justify-evenly ">
-                <NavItem title="HOME" Icon={ HomeIcon } url="/ " />
-                <NavItem title="AIRDROP" Icon={StatusOnlineIcon} url="/ "/>
-                <NavItem title="BOUNTY" Icon={BadgeCheckIcon} url="/ "/>
-                <NavItem title="WHITEPAPER" Icon={CollectionIcon} url="/ "/>
-                <NavItem title="EXCHANGE" Icon={SwitchHorizontalIcon} url="/ "/>
-                <NavItem title="FORUM" Icon={ChatAlt2Icon} url="/ "/>
-                <NavItem title="ROADMAP" Icon={LocationMarkerIcon} url="/ "/>
-                <NavItem title="PRODUCT" Icon={ShoppingCartIcon} url="/ "/>
-                <NavItem title="PARTNERS" Icon={SearchIcon} url="/ "/>
-                <NavItem title="TOKENOMICS" Icon={CurrencyDollarIcon} url="/ "/>
-                <NavItem title="ABOUT" Icon={UserIcon} url="/ "/>
+                <NavItem title="home" Icon={ HomeIcon }  onClick={() => router.push(`/`)}/>
+                <NavItem title="airdrop" Icon={StatusOnlineIcon} onClick={() => router.push(`/airdrop`)}/>
+                <NavItem title="bounty" Icon={BadgeCheckIcon} onClick={() => router.push(`/bounty`)}/>
+                <NavItem title="whitepaper" Icon={CollectionIcon} onClick={() => router.push(`/whitepaper`)}/>
+                <NavItem title="exchange" Icon={SwitchHorizontalIcon} onClick={() => router.push(`/exchange`)}/>
+                <NavItem title="forum" Icon={ChatAlt2Icon} onClick={() => router.push(`/forum`)}/>
+                <NavItem title="roadmap" Icon={LocationMarkerIcon} onClick={() => router.push(`/roadmap`)}/>
+                <NavItem title="product" Icon={ShoppingCartIcon} onClick={() => router.push(`/product`)}/>
+                <NavItem title="partners" Icon={SearchIcon} onClick={() => router.push(`/partners`)}/>
+                <NavItem title="tokenomics" Icon={CurrencyDollarIcon} onClick={() => router.push(`/tokenomics`)}/>
+                <NavItem title="about" Icon={UserIcon} onClick={() => router.push(`/about`)}/>
             </div>
         </header>
     )

@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import {StyleSheet, Text, View, Image, TouchableOpacity} from "react-native";
-import {windowWidth, windowHeight} from "../utils/Dimentions";
-import ModalSheet from "./ModalSheet";
 import TeamProfile from "./TeamProfile";
 
 
@@ -20,18 +18,18 @@ function Team() {
                 <Text style={styles.textTitle}>Our Team</Text>
             </div>
 
-            <div className="flex mb-10 justify-evenly w-3/4">
+            <div className="flex mb-10 justify-between px-10 w-screen">
                 <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Co-founder & COO" />
-                <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Head of Product" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Backend Engineer" />
+                <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Co-founder & Product Engineer" />
+                <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Co-founder & Backend Engineer" />
             </div>
 
-            <div className="flex mb-12 justify-evenly w-3/4">
+            <div className="flex mb-16 justify-between px-10 w-screen">
+                <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Osasumwen Mumen" position="Frontend Engineer" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Gift Kanu " position="Content Director" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
                 <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
             </div>

@@ -4,15 +4,11 @@ import Head from 'next/head';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import BodyOne from "./BodyOne";
-import BodyTwo from "./BodyTwo";
-import Team from "./Team";
-import Footer from "./Footer";
-import BodyZero from "./BodyZero";
 
 
 
-function Desktop() {
+
+function Bounty() {
 
 
 
@@ -28,15 +24,6 @@ function Desktop() {
 
             <NavBar />
 
-            <BodyZero className=" "/>
-
-            <BodyOne className=" "/>
-
-            <BodyTwo className=" "/>
-
-            <Team className=" "/>
-
-            <Footer className=" "/>
 
 
 
@@ -44,7 +31,7 @@ function Desktop() {
     );
 }
 
-export default Desktop;
+export default Bounty;
 
 
 const styles = StyleSheet.create({
@@ -86,7 +73,6 @@ const styles = StyleSheet.create({
         height: 40,
         borderRadius: 5,
         alignItems: "baseline",
-        marginRight: 20,
     },
     textInput: {
         width: '100%',
@@ -102,5 +88,3 @@ const styles = StyleSheet.create({
         width: 600,
     },
 });
-
-
