@@ -6,7 +6,7 @@ import { faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg
 
 function TeamProfile({ imgUrl, name, position, } ) {
     return (
-        <div className="flex flex-col justify-center items-center w-48">
+        <div className="flex flex-col justify-center items-center w-48 mb-5 md:mb-0">
             <div className="flex flex-row justify-center items-center ">
                 <div>
                     <img

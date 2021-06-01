@@ -3,12 +3,13 @@ import {StyleSheet, Text, View, Image, TouchableOpacity} from "react-native";
 import {windowWidth, windowHeight} from "../utils/Dimentions";
 import ModalSheet from "./ModalSheet";
 import ButtonYellow from "./ButtonYellow";
-
+import {useRouter} from "next/router";
 
 
 function BodyTwo() {
-
+    const router =useRouter();
     //const [modalVisible, setModalVisible] = useState(false);
+    const [commerce, setCommerce] = useState( "cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 bg-yellow-500 focus:bg-yellow-500 rounded-full");
 
     const [peer, setPeer] = useState( "");
     const [buyCrypto, setBuyCrypto] = useState( "h-0 opacity-0 m-0");
@@ -25,7 +26,7 @@ function BodyTwo() {
 
 
     const onPressPeer = () => {
-        setPeer("opacity-100 h-auto my-10 flex flex-col justify-start ");
+        setPeer("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setBuyCrypto("opacity-0 h-0");
         setDeposit("opacity-0 h-0");
         setTitlePeer("my-5 text-2xl font-semibold text-gray-900");
@@ -34,10 +35,11 @@ function BodyTwo() {
         setSubTitleBuy("mb-0 text-sm text-gray-700");
         setTitleDeposit("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleDeposit("mb-0 text-sm text-gray-700");
+        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
     const onPressBuy = () => {
-        setBuyCrypto("opacity-100 h-auto my-10 flex flex-col justify-start ");
+        setBuyCrypto("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setPeer("opacity-0 h-0 m-0");
         setDeposit("opacity-0 h-0 m-0");
         setTitleBuy("my-5 text-2xl font-semibold text-gray-900");
@@ -46,10 +48,11 @@ function BodyTwo() {
         setSubTitlePeer("mb-0 text-sm text-gray-700");
         setTitleDeposit("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleDeposit("mb-0 text-sm text-gray-700");
+        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
     const onPressDeposit = () => {
-        setDeposit("opacity-100 h-auto my-10 flex flex-col justify-start ");
+        setDeposit("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setBuyCrypto("opacity-0 h-0 m-0");
         setPeer("opacity-0 h-0 m-0");
         setTitleDeposit("my-5 text-2xl font-semibold text-gray-900");
@@ -58,12 +61,13 @@ function BodyTwo() {
         setSubTitlePeer("mb-0 text-sm text-gray-700");
         setTitleBuy("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleBuy("mb-0 text-sm text-gray-700");
+        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
 
     return (
-        <div className="flex w-screen h-auto bg-gray-300">
-            <div className="w-1/2 h-3/4 ml-10 my-10 " >
+        <div className="flex flex-col md:flex-row h-auto bg-gray-200">
+            <div className="w-5/6 md:w-1/2 h-5/6 ml-10 my-10 " >
                 <View style={styles.topContainer}>
                     <Text style={styles.textTitle}>A full suite of products</Text>
                 </View>
@@ -73,7 +77,7 @@ function BodyTwo() {
                     <div className="">
                         <button
                             onClick={onPressPeer}
-                            className="cursor-pointer w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 bg-yellow-500 in-focus:bg-white focus:bg-yellow-500 rounded-full"
+                            className={commerce}
                         >
                             <p className="font-semibold text-sm text-gray-900">E-Commerce</p>
                         </button>
@@ -92,12 +96,12 @@ function BodyTwo() {
 
                 <div className={peer}>
                     <p className={titlePeer}>Trade seamlessly with Aperiox Exchange</p>
-                    <p className={subTitlePeer}>Select from one of the assets like BNB, BUSD, USDT, and
-                        DeFi asser and get interests on your idle Crypto.
-                        Choose Flexible Savings for zero lock-up periods on dozens of cryptocurrencies,
-                        or Locked Savings for higher returns.</p>
+                    <p className={subTitlePeer}>Do do you want to buy or sell any commodity of your choice
+                        as well as being in control of your financial services?
+                        You can trade both locally and internationally using our commerce platform.
+                        Start by using the button below.</p>
 
-                    <ButtonYellow title="Start Trading"/>
+                    <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)}/>
                 </div>
 
                 <div className={buyCrypto}>
@@ -106,14 +110,14 @@ function BodyTwo() {
                         Choose from our wide list of crypto assets, including BNB, USDT, BUSD,ETH and DAI.
                         Push your investment potential to the next level with Binance Staking and enjoy our reduced fees.</p>
 
-                    <ButtonYellow title="Start Trading"/>
+                    <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)}/>
                 </div>
 
 
 
             </div>
 
-            <div className="flex w-1/2 h-96 mr-10 my-10 ">
+            <div className="flex w-5/6 md:w-1/2 h-96 md:mr-10 md:my-10 mb-10 md:mb-0">
                 <img
                     layout="responsive"
                     style={{width: 600, height: 400}}

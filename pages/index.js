@@ -12,24 +12,9 @@ import Desktop from "../components/Desktop";
 
 function App() {
 
-    const [isMobile, setIsMobile] = useState(null);
-
-    useEffect(() => {
-       if (windowWidth < 500 ) {
-           setIsMobile(true)
-       } else {
-           setIsMobile(false)
-       }
-    }, [windowWidth]);
-
-    console.log(windowWidth);
 
   return (
-    <View style={styles.container}>
-        {
-            isMobile ? <Mobile /> : <Desktop />
-        }
-    </View>
+      <Desktop />
   );
 }
 

@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
-import {StyleSheet, Text, View, Image, TouchableOpacity, TextInput} from "react-native";
-import {windowWidth, windowHeight} from "../utils/Dimentions";
-import ModalSheet from "./ModalSheet";
+import {StyleSheet, View, TextInput} from "react-native";
 import ButtonYellow from "./ButtonYellow";
 import ButtonDark from "./ButtonDark";
 import {faApple, faGooglePlay, faTelegram} from "@fortawesome/free-brands-svg-icons";
+import {useRouter} from "next/router";
+import Link from "next/link";
 
 
 
 function BodyZero() {
-
+    const router =useRouter();
     const [message, setMessage] = useState('');
 
     const onPress = () => {
@@ -18,33 +18,59 @@ function BodyZero() {
 
 
     return (
-        <div className="flex h-auto mt-20">
+        <div className="flex flex-col h-auto w-screen md:w-3/5 lg:w-1/2 mt-32">
 
             <div className="ml-10 ">
-                <View style={styles.textTitleContainer}>
-                    <Text style={styles.textTitle}>Buy, Sell and Trade Commodities in Minutes</Text>
-                    <Text style={styles.textSubtitle}>Get Started with as little as 500NGN</Text>
+                <View className=" ">
+                    <p className="font-semibold mt-3 text-normal text-gray-300">Welcome to</p>
+                    <p className="font-extrabold text-5xl">Apeirox</p>
+                    <p className="font-semibold mt-3 text-sm md:text-normal text-gray-400">
+                        Apeirox is a trust-less, flexibly safe e-commerce platform that introduce
+                        blockchain benefits to commerce and link local suppliers to both local and foreign markets, with the aim of reducing
+                        financial disparities and improving product accessibility. Our suite of products include
+                        e-Commerce, DEX swaps, P2P and e-Wallets.
+                    </p>
                 </View>
 
-                <View style={styles.inputContainer}>
-                    <View style={styles.emailContainer} >
+                <div className="flex flex-col md:flex-row h-auto mt-5 md:mt-10">
+                    <div className="w-52 w-80 bg-white mr-3 rounded mb-3 md:mb-0" >
                         <TextInput
                             placeholder={'Email Address'}
                             style={styles.textInput}
                             value={message}
                             onChangeText={setMessage}
                         />
-                    </View>
-                    <ButtonYellow title="Register Now"/>
-                </View>
+                    </div>
+                    <ButtonYellow title="Register Now" onClick={() => router.push(`/`)}/>
+                </div>
 
-                <View style={styles.downloadContainer}>
-                    <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay} onPress={onPress}/>
-                    <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} onPress={onPress}/>
-                    <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram} onPress={onPress}/>
-                </View>
+                <div className="flex mt-10 mb-16 ">
+                    <Link href={'/'}>
+                        <a
+                            target="_blank" rel="noopener noreferrer"
+                            className="cursor-pointer h-">
+                            <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay}/>
+                        </a>
+                    </Link>
+                    <Link href={'/'}>
+                        <a
+                            target="_blank" rel="noopener noreferrer"
+                            className="cursor-pointer h-">
+                            <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
+                        </a>
+                    </Link>
+
+
+                    <Link href={'https://t.me/aperioxcom'}>
+                        <a
+                            target="_blank" rel="noopener noreferrer"
+                            className="cursor-pointer h-">
+                            <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram}/>
+                        </a>
+                    </Link>
+
+                </div>
             </div>
-
 
 
         </div>
@@ -96,11 +122,12 @@ const styles = StyleSheet.create({
     },
     textInput: {
         width: '100%',
-        height: '100%',
+        height: 40,
         color: 'black',
         paddingHorizontal: 10,
         fontSize: 14,
         fontWeight: 'normal',
+        //marginBottom: 5,
     },
     downloadContainer: {
         flexDirection: 'row',

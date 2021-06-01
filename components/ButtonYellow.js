@@ -2,14 +2,10 @@ import React from 'react'
 import {StyleSheet, Text, TouchableOpacity} from "react-native";
 
 
-const onPress = () => {
-
-};
-
-function ButtonYellow({title}) {
+function ButtonYellow({title, onClick}) {
     return (
         <button
-            onClick={onPress}
+            onClick={onClick}
             className="cursor-pointer w-28 h-10 bg-yellow-500 justify-center items-center transition duration-100 hover:bg-yellow-400 active:bg-yellow-400 rounded"
         >
             <p className="font-semibold text-sm text-black">{title}</p>

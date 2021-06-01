@@ -6,8 +6,8 @@ import HeaderItem from "./HeaderItem";
 function Footer() {
     return (
         <div className="flex flex-col justify-start items-start h-auto w-screen">
-            <div className="flex ">
-                <div className="flex flex-col my-10 mx-10 ">
+            <div className="flex md:w-screen">
+                <div className="flex flex-col my-10 mx-5 md:mx-10 ">
                     <p className="mb-5 font-bold ">About Us</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">About</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Career</p>
@@ -17,7 +17,7 @@ function Footer() {
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Privacy</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Announcements</p>
                 </div>
-                <div className="flex flex-col my-10 mx-10">
+                <div className="flex flex-col my-10 mx-5 md:mx-10 ">
                     <p className="mb-5 font-bold ">Products</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">E-commerce</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Swap</p>
@@ -25,7 +25,7 @@ function Footer() {
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Exchange</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Wallet</p>
                 </div>
-                <div className="flex flex-col my-10 mx-10">
+                <div className="flex flex-col my-10 mx-5 md:mx-10 ">
                     <p className="mb-5 font-bold ">Services</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Downloads</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Buy Crypto</p>

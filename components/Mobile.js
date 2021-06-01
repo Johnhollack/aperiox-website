@@ -2,9 +2,6 @@
 import React, {useEffect, useState} from 'react';
 import Head from 'next/head';
 import { StyleSheet, Text, View } from 'react-native';
-import Header from "../components/Header";
-import NavBar from "../components/NavBar";
-
 
 
 function Mobile() {
@@ -17,9 +14,7 @@ function Mobile() {
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
-            <Header />
 
-            <p className="text-gray-300 font-bold">Welcome to Aperiox Mobile 👋</p>
 
         </View>
     );

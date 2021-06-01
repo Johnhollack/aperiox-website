@@ -18,21 +18,24 @@ function Team() {
                 <Text style={styles.textTitle}>Our Team</Text>
             </div>
 
-            <div className="flex mb-10 justify-between px-10 w-screen">
-                <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Co-founder & COO" />
-                <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Co-founder & Product Engineer" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Co-founder & Backend Engineer" />
+            <div className="flex flex-row md:flex-col w-3/4 justify-evenly items-center mb-10 md:mb-0">
+                <div className="flex flex-col md:flex-row md:mb-10 justify-between px-10 w-screen">
+                    <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Co-founder & COO" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Co-founder & Product Engineer" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Co-founder & Backend Engineer" />
+                </div>
+
+                <div className="flex flex-col md:flex-row md:mb-16 justify-between px-10 w-screen">
+                    <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Osasumwen Mumen" position="Frontend Engineer" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Gift Kanu " position="Content Director" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
+                </div>
             </div>
 
-            <div className="flex mb-16 justify-between px-10 w-screen">
-                <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Osasumwen Mumen" position="Frontend Engineer" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Gift Kanu " position="Content Director" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
-                <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
-            </div>
         </div>
     )
 }
