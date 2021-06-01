@@ -64,40 +64,40 @@ const ModalSheet = (props) => {
                                 icon={faChevronDown}
                                 className="cursor-pointer hover:text-gray-900 h-5 text-black lg:w-0 lg:h-0 lg:opacity-0 px-5 lg:px-0"
                             />
-                            <TouchableOpacity onPress={()=> {}} style={styles.container}>
-                                <Text style={styles.text}>{button1}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> {}} style={styles.container}>
-                                <Text style={styles.text}>{button2}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> {}} style={styles.container}>
-                                <Text style={styles.text}>{button3}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> {}} style={styles.container}>
-                                <Text style={styles.text}>{button4}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> {}} style={styles.container}>
-                                <Text style={styles.text}>{button5}</Text>
 
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button6}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button7}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button8}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button9}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button10}</Text>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={()=> alert('coming soon')} style={styles.container}>
-                                <Text style={styles.text}>{button11}</Text>
-                            </TouchableOpacity>
+                            <button onClick={() => router.push(`/`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize  ">{button1}</p>
+                            </button>
+                            <button onClick={() => router.push(`/airdrop`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button2}</p>
+                            </button>
+                            <button onClick={() => router.push(`/bounty`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button3}</p>
+                            </button>
+                            <button onClick={() => router.push(`/whitepaper`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button4}</p>
+                            </button>
+                            <button onClick={() => router.push(`/exchanges`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button5}</p>
+                            </button>
+                            <button onClick={() => router.push(`/forum`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button6}</p>
+                            </button>
+                            <button onClick={() => router.push(`/roadmap`)} className="h-8 my-3  cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button7}</p>
+                            </button>
+                            <button onClick={() => router.push(`/product`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button8}</p>
+                            </button>
+                            <button onClick={() => router.push(`/partners`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button9}</p>
+                            </button>
+                            <button onClick={() => router.push(`/tokenomics`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button10}</p>
+                            </button>
+                            <button onClick={() => router.push(`/about`)} className="h-8 my-3 cursor-pointer hover:text-gray-900">
+                                <p className="text-black font-semibold text-left capitalize ">{button11}</p>
+                            </button>
                         </View>
                     </View>
                 </TouchableWithoutFeedback>
