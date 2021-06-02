@@ -22,9 +22,9 @@ function BodyZero() {
 
             <div className="ml-10 ">
                 <View className=" ">
-                    <p className="font-semibold mt-3 text-normal text-gray-300">Welcome to</p>
-                    <p className="font-extrabold text-5xl">Apeirox</p>
-                    <p className="font-semibold mt-3 text-sm md:text-normal text-gray-400">
+                    <p className="font-semibold mt-3 text-sm text-gray-300">Welcome to</p>
+                    <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                    <p className="font-semibold mt-3 text-xs md:text-normal text-gray-400 w-5/6">
                         Apeirox is a trust-less, flexibly safe e-commerce platform that introduce
                         blockchain benefits to commerce and link local suppliers to both local and foreign markets, with the aim of reducing
                         financial disparities and improving product accessibility. Our suite of products include
@@ -33,7 +33,7 @@ function BodyZero() {
                 </View>
 
                 <div className="flex flex-col md:flex-row h-auto mt-5 md:mt-10">
-                    <div className="w-52 w-80 bg-white mr-3 rounded mb-3 md:mb-0" >
+                    <div className="w-4/5 md:w-80 bg-white mr-3 rounded mb-3 md:mb-0" >
                         <TextInput
                             placeholder={'Email Address'}
                             style={styles.textInput}
@@ -44,27 +44,28 @@ function BodyZero() {
                     <ButtonYellow title="Register Now" onClick={() => router.push(`/`)}/>
                 </div>
 
-                <div className="flex mt-10 mb-16 ">
-                    <Link href={'/'}>
-                        <a
-                            target="_blank" rel="noopener noreferrer"
-                            className="cursor-pointer h-">
-                            <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay}/>
-                        </a>
-                    </Link>
-                    <Link href={'/'}>
-                        <a
-                            target="_blank" rel="noopener noreferrer"
-                            className="cursor-pointer h-">
-                            <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
-                        </a>
-                    </Link>
-
+                <div className="flex md:flex-row mt-10 mb-16 ">
+                    <div className="flex flex-col md:flex-row ">
+                        <Link href={'/'}>
+                            <a
+                                target="_blank" rel="noopener noreferrer"
+                                className="cursor-pointer ">
+                                <ButtonDark subtitle="GET IT ON" title="Google PlayStore" icon={faGooglePlay}/>
+                            </a>
+                        </Link>
+                        <Link href={'/'}>
+                            <a
+                                target="_blank" rel="noopener noreferrer"
+                                className="cursor-pointer mt-2 md:mt-0">
+                                <ButtonDark subtitle="DOWNLOAD ON" title="App Store" icon={faApple} />
+                            </a>
+                        </Link>
+                    </div>
 
                     <Link href={'https://t.me/aperioxcom'}>
                         <a
                             target="_blank" rel="noopener noreferrer"
-                            className="cursor-pointer h-">
+                            className="cursor-pointer ">
                             <ButtonDark subtitle="JOIN OUR" title="Community" icon={faTelegram}/>
                         </a>
                     </Link>

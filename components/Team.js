@@ -18,8 +18,8 @@ function Team() {
                 <Text style={styles.textTitle}>Our Team</Text>
             </div>
 
-            <div className="flex flex-row md:flex-col w-3/4 justify-evenly items-center mb-10 md:mb-0">
-                <div className="flex flex-col md:flex-row md:mb-10 justify-between px-10 w-screen">
+            <div className="flex flex-row md:flex-col w-screen justify-evenly items-center mb-10 md:mb-0">
+                <div className="flex flex-col md:flex-row md:mb-10 justify-between px-10 w-1/2 md:w-screen">
                     <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
                     <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
                     <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Co-founder & COO" />
@@ -27,7 +27,7 @@ function Team() {
                     <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Co-founder & Backend Engineer" />
                 </div>
 
-                <div className="flex flex-col md:flex-row md:mb-16 justify-between px-10 w-screen">
+                <div className="flex flex-col md:flex-row md:mb-16 justify-between px-10 w-auto md:w-screen">
                     <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
                     <TeamProfile imgUrl="/team-icon.svg" name="Osasumwen Mumen" position="Frontend Engineer" />
                     <TeamProfile imgUrl="/team-icon.svg" name="Gift Kanu " position="Content Director" />

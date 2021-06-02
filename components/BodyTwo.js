@@ -9,69 +9,68 @@ import {useRouter} from "next/router";
 function BodyTwo() {
     const router =useRouter();
     //const [modalVisible, setModalVisible] = useState(false);
-    const [commerce, setCommerce] = useState( "cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 bg-yellow-500 focus:bg-yellow-500 rounded-full");
+    const [commerce, setCommerce] = useState( "cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 bg-yellow-500 focus:bg-yellow-500 rounded-full");
 
     const [peer, setPeer] = useState( "");
     const [buyCrypto, setBuyCrypto] = useState( "h-0 opacity-0 m-0");
     const [deposit, setDeposit] = useState( "h-0 opacity-0 m-0");
 
-    const [titlePeer, setTitlePeer] = useState( "my-5 text-2xl font-semibold text-gray-900");
-    const [subTitlePeer, setSubTitlePeer] = useState( "mb-10 text-sm text-gray-700 ");
+    const [titlePeer, setTitlePeer] = useState( "my-5 text-lg md:text-2xl font-semibold text-gray-900");
+    const [subTitlePeer, setSubTitlePeer] = useState( "mb-10 text-xs md:text-sm text-gray-700 w-4/5");
 
-    const [titleBuy, setTitleBuy] = useState( "my-0 text-2xl font-semibold text-gray-900");
-    const [subTitleBuy, setSubTitleBuy] = useState( "mb-0 text-sm text-gray-700 ");
+    const [titleBuy, setTitleBuy] = useState( "my-0 text-lg md:text-2xl font-semibold text-gray-900");
+    const [subTitleBuy, setSubTitleBuy] = useState( "mb-0 text-xs md:text-sm text-gray-700 w-4/5");
 
-    const [titleDeposit, setTitleDeposit] = useState( "my-0 text-2xl font-semibold text-gray-900");
-    const [subTitleDeposit, setSubTitleDeposit] = useState( "mb-0 text-sm text-gray-700 ");
+    const [titleDeposit, setTitleDeposit] = useState( "my-0 text-lg md:text-2xl font-semibold text-gray-900");
+    const [subTitleDeposit, setSubTitleDeposit] = useState( "mb-0 text-xs md:text-sm text-gray-700 w-4/5");
 
 
     const onPressPeer = () => {
         setPeer("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setBuyCrypto("opacity-0 h-0");
         setDeposit("opacity-0 h-0");
-        setTitlePeer("my-5 text-2xl font-semibold text-gray-900");
-        setSubTitlePeer("mb-10 text-sm text-gray-700");
+        setTitlePeer("my-5 text-lg md:text-2xl font-semibold text-gray-900");
+        setSubTitlePeer("mb-10 text-sm w-4/5 text-gray-700");
         setTitleBuy("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleBuy("mb-0 text-sm text-gray-700");
         setTitleDeposit("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleDeposit("mb-0 text-sm text-gray-700");
-        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
+        setCommerce("cursor-pointer w-32 md:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
     const onPressBuy = () => {
         setBuyCrypto("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setPeer("opacity-0 h-0 m-0");
         setDeposit("opacity-0 h-0 m-0");
-        setTitleBuy("my-5 text-2xl font-semibold text-gray-900");
-        setSubTitleBuy("mb-10 text-sm text-gray-700");
+        setTitleBuy("my-5 text-lg md:text-2xl font-semibold text-gray-900");
+        setSubTitleBuy("mb-10 text-sm w-4/5 text-gray-700");
         setTitlePeer("my-0 text-2xl font-semibold text-gray-900");
         setSubTitlePeer("mb-0 text-sm text-gray-700");
         setTitleDeposit("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleDeposit("mb-0 text-sm text-gray-700");
-        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
+        setCommerce("cursor-pointer w-32 md:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
     const onPressDeposit = () => {
         setDeposit("opacity-100 h-auto my-0 md:my-5 flex flex-col justify-start ");
         setBuyCrypto("opacity-0 h-0 m-0");
         setPeer("opacity-0 h-0 m-0");
-        setTitleDeposit("my-5 text-2xl font-semibold text-gray-900");
-        setSubTitleDeposit("mb-10 text-sm text-gray-700");
+        setTitleDeposit("my-5 text-lg md:text-2xl font-semibold text-gray-900");
+        setSubTitleDeposit("mb-10 text-sm w-4/5 text-gray-700");
         setTitlePeer("my-0 text-2xl font-semibold text-gray-900");
         setSubTitlePeer("mb-0 text-sm text-gray-700");
         setTitleBuy("my-0 text-2xl font-semibold text-gray-900");
         setSubTitleBuy("mb-0 text-sm text-gray-700");
-        setCommerce("cursor-pointer w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
+        setCommerce("cursor-pointer w-32 md:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full");
     };
 
 
     return (
-        <div className="flex flex-col md:flex-row h-auto bg-gray-200">
-            <div className="w-5/6 md:w-1/2 h-5/6 ml-10 my-10 " >
-                <View style={styles.topContainer}>
-                    <Text style={styles.textTitle}>A full suite of products</Text>
-                </View>
-
+        <div className="flex flex-col md:flex-row h-auto bg-gray-200 w-screen">
+            <div className="w-screen md:w-1/2 h-5/6 ml-10 my-10 " >
+                <div className="">
+                    <p className="font-semibold text-2xl md:text-3xl text-gray-900">A full suite of products</p>
+                </div>
 
                 <View style={styles.navigationContainer}>
                     <div className="">
@@ -79,7 +78,7 @@ function BodyTwo() {
                             onClick={onPressPeer}
                             className={commerce}
                         >
-                            <p className="font-semibold text-sm text-gray-900">E-Commerce</p>
+                            <p className="font-semibold text-xs md:text-sm text-gray-900">E-Commerce</p>
                         </button>
                     </div>
 
@@ -88,7 +87,7 @@ function BodyTwo() {
                             onClick={onPressBuy}
                             className="cursor-pointer w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-100 focus:bg-yellow-500 rounded-full"
                         >
-                            <p className="font-semibold text-sm text-gray-900">Swap</p>
+                            <p className="font-semibold text-xs md:text-sm text-gray-900">Swap</p>
                         </button>
                     </div>
 
@@ -117,7 +116,7 @@ function BodyTwo() {
 
             </div>
 
-            <div className="flex w-5/6 md:w-1/2 h-96 md:mr-10 md:my-10 mb-10 md:mb-0">
+            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 md:mb-0">
                 <img
                     layout="responsive"
                     style={{width: 600, height: 400}}

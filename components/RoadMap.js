@@ -67,7 +67,7 @@ function RoadMap() {
 
 
     return (
-        <div className="flex flex-col md:flex-row bg-gray-200 h-auto">
+        <div className="flex flex-col md:flex-row bg-gray-200 h-auto w-screen">
 
             <div className="w-5/6 h-5/6 ml-10 mb-10 md:my-10 " >
                 <View style={styles.topContainer}>
