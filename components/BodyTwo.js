@@ -174,7 +174,7 @@ function BodyTwo() {
                 </div>
 
                 <div className={deposit1}>
-                    <p className={titleDeposit1}>Decentralized Wallets</p>
+                    <p className={titleDeposit1}>E-Wallets</p>
                     <p className={subTitleDeposit1}>
                         One unique product of ours is our e-wallet system. The e-wallet will have the capacity to hold values for all national currencies. Any user on the platform will have a unique e-wallet identifier public address assigned to the account. The identifier will be a 32 hexadecimal code and can be used to receive any currency denomination. The e-currencies in this wallet are considered another version of stable coins that are transferable cross-border.
                     </p>
