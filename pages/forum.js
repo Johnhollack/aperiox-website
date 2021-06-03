@@ -48,7 +48,14 @@ function Forum() {
 
             />
 
+            <div className="flex flex-col h-auto w-screen mt-20 h-52 justify-center items-center">
 
+                <p className="font-semibold mt-3 text-lg text center text-yellow-400 text-justify">
+                    Coming Soon
+                </p>
+
+
+            </div>
 
 
         </div>

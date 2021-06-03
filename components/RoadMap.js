@@ -105,7 +105,7 @@ function RoadMap() {
 
                 <div className="flex flex-row mt-10">
                     <div className="flex flex-col sm:flex-row ">
-                        <div className="">
+                        <div className="mb-3 sm:mb-0">
                             <button
                                 onClick={onPressPeer}
                                 className={p2p}
@@ -126,7 +126,7 @@ function RoadMap() {
 
                     <div className="flex flex-col sm:flex-row ">
 
-                        <div className="">
+                        <div className="mb-3 sm:mb-0">
                             <button
                                 onClick={onPressDeposit}
                                 className="cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full"

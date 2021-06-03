@@ -20,19 +20,19 @@ function Team() {
 
             <div className="flex flex-row md:flex-col w-screen justify-evenly items-center mb-10 md:mb-0">
                 <div className="flex flex-col md:flex-row md:mb-10 justify-between px-10 w-1/2 md:w-screen">
-                    <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Project Manager" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Lead Frontend Engineer" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Backend Engineer" />
+                    <TeamProfile imgUrl="/1-01.png" name="Victor Oyita" position="Co-founder & CEO" url="https://www.linkedin.com/in/victor-oyita-558a1870"/>
+                    <TeamProfile imgUrl="/6-01.png" name="Joseph Okafor" position="Co-founder & CTO" url="https://www.linkedin.com/in/joseph-okafor-92007793/"/>
+                    <TeamProfile imgUrl="/9-01.png" name="Efe Wilfred" position="Project Manager" url="/"/>
+                    <TeamProfile imgUrl="/8-01.png" name="John Lekan" position="Lead Frontend Engineer" url="https://www.linkedin.com/in/lekan-adejumo-007"/>
+                    <TeamProfile imgUrl="/4-01.png" name="Dare Olushina" position="Backend Engineer" url="https://www.linkedin.com/in/darey-olushina-82b15710a"/>
                 </div>
 
                 <div className="flex flex-col md:flex-row md:mb-16 justify-between px-10 w-auto md:w-screen">
-                    <TeamProfile imgUrl="/team-icon.svg" name="Ifeanyi Kalu" position="Software Engineer" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Osasumwen Mumen" position="Frontend Engineer" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Gift Kanu " position="Content Director" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Name Name" position="Position" />
+                    <TeamProfile imgUrl="/3-01.png" name="Ifeanyi Kalu" position="Software Engineer" url="/"/>
+                    <TeamProfile imgUrl="/BB.png" name="Osasumwen Mumen" position="Frontend Engineer" url="https://www.linkedin.com/in/elijah-mumen-9097481b0/"/>
+                    <TeamProfile imgUrl="/7-01.png" name="Gift Kanu " position="Content Director" url="https://www.linkedin.com/in/gift-godwin-080689210"/>
+                    <TeamProfile imgUrl="/5-01.png" name="Great Oyita" position="Administrative Manager" url="https://linkedin.com/in/great-oyita-09213b69"/>
+                    <TeamProfile imgUrl="/t2-01.png" name="Temperance Anaughe" position="Head, Business Development and Growth" url="https://www.linkedin.com/in/temperance-anaughe-1a411455"/>
                 </div>
             </div>
 

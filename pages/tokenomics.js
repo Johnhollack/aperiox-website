@@ -82,7 +82,7 @@ function Tokenomics() {
 
 
                     <div className="my-10">
-                        <p className="font-semibold text-sm t-3 text-normal text-yellow-300">
+                        <p className="font-semibold text-sm t-3 md:text-base text-justify text-yellow-300">
                             The APX token is a BEP-20 Binance Smart Chain token. ApeiroX's
                             decentralized services would be launched with this coin. Although we plan
                             to move to our own native blockchain in the near future, the technical paper
@@ -92,7 +92,7 @@ function Tokenomics() {
                             to simplify the product and pool resources to focus on mainstream
                             acceptance, as well as adequate management and responsibility.                        </p>
 
-                        <p className="mt-3 text-sm text-gray-200">
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
                             APX tokens contribute to a democratic Blockchain ecosystem and provide the following functions to specify access to services and products:
                         </p>
                         <p className="mt-3 text-sm text-gray-200">
@@ -110,6 +110,40 @@ function Tokenomics() {
                         </p>
                         <p className="mt-3 text-sm text-gray-200">
                             4. Just like other cryptocurrencies, it's used for payments.
+                        </p>
+
+                        <p className="mt-3 text-sm text-yellow-300  md:text-base text-justify">
+                            The total token supply will be 10 trillion (10,000,000,000,000)
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            The company and team tokens will be 30% of the total supply, this would imply 3 trillion tokens (3,000,000,000,000). But only one-third of the team tokens will be initially released in this first year.
+                            This means at token deployment, 1,000,000,000,000 team tokens will be in circulation. The remaining 2 trillion tokens will be time-locked for a period of two years, with 50% (1,000,000,000,000 tokens) unlocked each year.
+                            The team tokens will have at least 40% (400,000,000,000 tokens) of the total it received mapped out in the company wallet, and will be used for managing and growing the company vision and prospects globally.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            70% (7,000,000,000,000) of the total supply belongs to the community in the following ways.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            5% (350,000,000,000) will be airdropped within 3 months of token deployment to those who participated in the airdrop.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            2.5% (175,000,000,000) will be sent to bounty participants when the airdrop is being distributed.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            2.5% (175,000,000,000) will be distributed evenly based on managed bounty tasks for a period of 1 year.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            This means that for a period of one year, the total amount of tokens in circulation will only be 20% (2,000,000,000,000) of the total supply (implying 10% (1,000,000,000,000) team tokens and 10% (1,000,000,000,000) community tokens).
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            The remaining 60% (6,000,000,000,000) of the community tokens will be rationed for rewarding users for platform usage and also will be factored into liquidity provider benefits that will be well articulated in the next version of our technical paper carrying specifications for our Swap module.
                         </p>
 
                     </div>

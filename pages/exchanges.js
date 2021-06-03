@@ -89,65 +89,54 @@ function Exchange() {
                             This will take approximately 15-30 minutes if you're new.
                         </p>
 
-                        <p className="font-semibold mt-10 text-base  text-white">Step 1: Create a Wallet</p>
+                        <p className="font-semibold mt-10 text-base  text-white">The first step is to make a wallet.</p>
                         <p className="mt-3 text-normal text-gray-200  text-justify">
-                            Download Trust Wallet and create a wallet. Keep your phrase a secret! Never share
-                            it with anyone and store it properly! Make sure to copy the contract address below! The token smart contract address on the Binance Smart Chain is
+                            Create your wallet with Trust Wallet. Keep your phrase under wraps! Never give it out to anybody and keep it safe! Make a note of the contract address shown below!
                         </p>
                         <p className="font-semibold mt-5 text-sm  text-yellow-300">0xcdc3d1e33c0ba574d593d193070aacc335481bb9</p>
 
 
-                        <p className="font-semibold mt-10 text-base  text-white">Step 2: Add Apeirox to the Wallet</p>
+                        <p className="font-semibold mt-10 text-base  text-white">The second step is to Sync ApeiroX with your wallet.</p>
                         <p className="mt-3 text-normal text-gray-200  text-justify">
-                            Tap the icon in the top-right and search for "Apeirox". If it's not there, tap "Add Custom Token".
+                            Search for "Apeirox" using the icon in the top-right corner. Tap "Add Custom Token" if it isn't already there.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            At the top, tap "Ethereum" next to Network, and change it to "Smart Chain".
-                            Copy the contract address on this page and put it in the Contract Address box.
+                            Change the "Ethereum" next to Network to "Smart Chain" at the top. Copy and paste the contract address from this page into the Contract Address field.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Next, put "Apeirox" as the name, and the symbol as APX. Decimals will be 9
+                            Put "ApeiroX" as the name and APX as the symbol. The number of decimals will be 8.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Click "Done" at the top and you should now have Apeirox added to your wallet!
+                            Click "Done" at the top, and ApeiroX should now be in your wallet!
                         </p>
 
 
-                        <p className="font-semibold mt-10 text-base text-white">Step 3: Buy "Binance Smart Chain" (BSC)</p>
+                        <p className="font-semibold mt-10 text-base text-white">The third step is to Purchase the "Binance Smart Chain" (BSC)</p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Tap on "Smart Chain" on the main screen of trust wallet, then tap "Buy" in the top right.
-                            This step may require KYC verification, so have documents ready to prove your identity.
+                            On the trust wallet's main screen, press "Smart Chain," then "Buy" in the upper right. Have documentation to establish your identification available for this stage, as it may need KYC verification.
                         </p>
                         <p className="mt-3 text-sm  text-red-400  text-justify">
-                            If the transaction won't go through, you may need to contact your bank to allow international transactions.
+                            If the transaction fails, you may need to contact your bank to request that foreign transactions be permitted.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            After purchasing, there may be a delay while your transaction is processed. Be patient, this is normal!
+                            There may be a delay while your transaction is completed after you make a purchase. Be patient; this is very normal!
                         </p>
 
-                        <p className="font-semibold mt-10 text-base text-white">Step 4: Swap BSC for Apeirox!</p>
+                        <p className="font-semibold mt-10 text-base text-white">The Fourth Step is to Replace BSC with ApeiroX!</p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Once your transaction has been cleared, and you have BSC on your Trust Wallet,
-                            Go to DApps (or "Browser" for iPhones) at the bottom of the main screen.
-                            If the Browser button is not visible at the bottom for iPhone,
-                            open Safari and in the URL type trust://browser_enable, then return to trust wallet.
+                            Go to DApps (or "Browser" for iPhones) at the bottom of the main screen once your transaction has cleared and you have BSC in your Trust Wallet.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Open the DApps, or Browser, section and find PancakeSwap and open it.
-                            Connect your Trust Wallet in the top-right. Scroll down a little to the "Exchange" box
+                            If the Browser button is not displayed at the bottom of the iPhone screen, open Safari and put trust:/browser enable in the URL field, then return to the trust wallet.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Click the settings icon and set the slippage to 12%. If you want to give it the best possible change to clear,
-                            increase the deadline. By default it should be set to 20 minutes, which is fine.
+                            Find PancakeSwap under the DApps, or Browser area and open it. In the top-right corner, connect your Trust Wallet. Scroll down to the "Exchange" section.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Once the slippage is set, and you have the BNB amount set that you wish to swap for
-                            Apeirox as shown, just click Swap and wait patiently for the transaction to clear.
-                            This process may not be instant and can take anywhere from a few minutes up to an hour
-                            sometimes, depending on traffic.
+                            Simply click Exchange and wait for the transaction to settle after the slippage is established and you have the BNB amount you want to swap for ApeiroX as displayed. This procedure may not be instantaneous, and depending on traffic, it might take anything from a few minutes to an hour.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Once the transaction has been cleared, you should have Apeirox in your Trust Wallet!
+                            You should have ApeiroX in your Trust Wallet after the transaction has cleared!
                         </p>
                         <p className="mt-3 text-sm  text-yellow-300">
                             Now all that's left is to HODL!

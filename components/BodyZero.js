@@ -10,7 +10,7 @@ import Link from "next/link";
 
 function BodyZero() {
     const router =useRouter();
-    //const [message, setMessage] = useState('');
+    const [message, setMessage] = useState('');
 
     const onPress = () => {
 
@@ -33,10 +33,15 @@ function BodyZero() {
                 </View>
 
                 <div className="flex flex-col md:flex-row h-auto mt-5 md:mt-10">
-                    <div className="flex w-4/5 md:w-80 bg-white mr-3 rounded mb-3 md:mb-0 text-gray-900 justify-center items-center" >
-                        <p className="text-center font-semibold">You can now buy Apeirox Coin (APX)</p>
+                    <div className="w-4/5 md:w-80 bg-white mr-3 rounded mb-3 md:mb-0" >
+                        <TextInput
+                            placeholder={'Email Address'}
+                            style={styles.textInput}
+                            value={message}
+                            onChangeText={setMessage}
+                        />
                     </div>
-                    <ButtonYellow title="Buy Now" onClick={() => router.push(`/`)}/>
+                    <ButtonYellow title="Register Now" onClick={() => router.push(`/`)}/>
                 </div>
 
                 <div className="flex md:flex-row mt-10 mb-16 ">

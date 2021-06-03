@@ -4,7 +4,7 @@ import React from "react";
 import { faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 
-function TeamProfile({ imgUrl, name, position, } ) {
+function TeamProfile({ imgUrl, name, position, url} ) {
     return (
         <div className="flex flex-col justify-center items-center w-48 mb-5 md:mb-0">
             <div className="flex flex-row justify-center items-center ">
@@ -17,9 +17,12 @@ function TeamProfile({ imgUrl, name, position, } ) {
                     />
                 </div>
                 <div className="flex flex-col ml-2">
-                    <FontAwesomeIcon icon={faLinkedin}  className="h-5 text-black my-1 cursor-pointer hover:animate-bounce hover:text-gray-700 transform"/>
-                    <FontAwesomeIcon icon={faTwitter}  className="h-5 text-black my-1 cursor-pointer hover:animate-bounce hover:text-gray-700 transform"/>
-                    <FontAwesomeIcon icon={faInstagram}  className="h-5 text-black my-1 cursor-pointer hover:animate-bounce hover:text-gray-700 transform"/>
+                    <Link href={url}>
+                        <a target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin}  className="h-5 text-black my-1 cursor-pointer hover:animate-bounce hover:text-gray-700 transform"/>
+                        </a>
+                    </Link>
+
                 </div>
 
             </div>
