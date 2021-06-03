@@ -57,25 +57,25 @@ function Exchange() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-5xl">Apeirox</p>
-                        <p className="font-semibold mt-3 text-normal text-gray-300">How to buy Aperiox (APX)</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">How to buy Aperiox (APX)</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://www.coingecko.com/'}>
+                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-gray-500 h-10 rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
-                                    Markets
+                                    className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    Bsc Scan
                                 </button>
                             </a>
                         </Link>
 
-                        <Link href={'https://pancakeswap.finance/'}>
+                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-yellow-500 h-10 rounded w-40 text-black font-semibold hover:bg-yellow-400 ">
+                                    className="bg-yellow-500 h-10 text-sm rounded w-36 text-black font-semibold hover:bg-yellow-400 ">
                                     Buy on Pancake
                                 </button>
                             </a>
@@ -84,72 +84,72 @@ function Exchange() {
                     </div>
 
                     <div className="my-10">
-                        <p className="font-semibold mt-3 text-normal text-red-400">
+                        <p className="font-semibold mt-3 text-sm text-red-400  text-justify">
                             Recommended to read on PC, and follow along on your Phone to make it easier.
                             This will take approximately 15-30 minutes if you're new.
                         </p>
 
-                        <p className="font-semibold mt-10 text-normal text-white">Step 1: Create a Wallet</p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="font-semibold mt-10 text-base  text-white">Step 1: Create a Wallet</p>
+                        <p className="mt-3 text-normal text-gray-200  text-justify">
                             Download Trust Wallet and create a wallet. Keep your phrase a secret! Never share
-                            it with anyone and store it properly! Make sure to copy the contract address below!
+                            it with anyone and store it properly! Make sure to copy the contract address below! The token smart contract address on the Binance Smart Chain is
                         </p>
-                        <p className="font-semibold mt-5 text-normal text-yellow-300">0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3</p>
+                        <p className="font-semibold mt-5 text-sm  text-yellow-300">0xcdc3d1e33c0ba574d593d193070aacc335481bb9</p>
 
 
-                        <p className="font-semibold mt-10 text-normal text-white">Step 2: Add Apeirox to the Wallet</p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="font-semibold mt-10 text-base  text-white">Step 2: Add Apeirox to the Wallet</p>
+                        <p className="mt-3 text-normal text-gray-200  text-justify">
                             Tap the icon in the top-right and search for "Apeirox". If it's not there, tap "Add Custom Token".
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             At the top, tap "Ethereum" next to Network, and change it to "Smart Chain".
                             Copy the contract address on this page and put it in the Contract Address box.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            Next, put "Apeirox" as the name, and the symbol as SFM. Decimals will be 9
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
+                            Next, put "Apeirox" as the name, and the symbol as APX. Decimals will be 9
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Click "Done" at the top and you should now have Apeirox added to your wallet!
                         </p>
 
 
-                        <p className="font-semibold mt-10 text-normal text-white">Step 3: Buy "Binance Smart Chain" (BSC)</p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="font-semibold mt-10 text-base text-white">Step 3: Buy "Binance Smart Chain" (BSC)</p>
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Tap on "Smart Chain" on the main screen of trust wallet, then tap "Buy" in the top right.
                             This step may require KYC verification, so have documents ready to prove your identity.
                         </p>
-                        <p className="mt-3 text-normal text-red-400">
+                        <p className="mt-3 text-sm  text-red-400  text-justify">
                             If the transaction won't go through, you may need to contact your bank to allow international transactions.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             After purchasing, there may be a delay while your transaction is processed. Be patient, this is normal!
                         </p>
 
-                        <p className="font-semibold mt-10 text-normal text-white">Step 4: Swap BSC for Safemoon!</p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="font-semibold mt-10 text-base text-white">Step 4: Swap BSC for Apeirox!</p>
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Once your transaction has been cleared, and you have BSC on your Trust Wallet,
                             Go to DApps (or "Browser" for iPhones) at the bottom of the main screen.
                             If the Browser button is not visible at the bottom for iPhone,
                             open Safari and in the URL type trust://browser_enable, then return to trust wallet.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Open the DApps, or Browser, section and find PancakeSwap and open it.
                             Connect your Trust Wallet in the top-right. Scroll down a little to the "Exchange" box
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Click the settings icon and set the slippage to 12%. If you want to give it the best possible change to clear,
                             increase the deadline. By default it should be set to 20 minutes, which is fine.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Once the slippage is set, and you have the BNB amount set that you wish to swap for
-                            safemoon as shown, just click Swap and wait patiently for the transaction to clear.
+                            Apeirox as shown, just click Swap and wait patiently for the transaction to clear.
                             This process may not be instant and can take anywhere from a few minutes up to an hour
                             sometimes, depending on traffic.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            Once the transaction has been cleared, you should have Safemoon in your Trust Wallet!
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
+                            Once the transaction has been cleared, you should have Apeirox in your Trust Wallet!
                         </p>
-                        <p className="mt-3 text-normal text-yellow-300">
+                        <p className="mt-3 text-sm  text-yellow-300">
                             Now all that's left is to HODL!
                         </p>
 

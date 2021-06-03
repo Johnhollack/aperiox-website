@@ -3,7 +3,7 @@ import React from "react";
 
 function Listings () {
     return (
-        <div  className="flex flex-col sm:flex-row h-52 w-screen justify-evenly items-center bg-white">
+        <div  className="flex flex-col sm:flex-row h-52 w-screen justify-evenly items-center bg-white overflow-hidden">
             <Link href={'https://bscscan.com/'}>
                 <a
                     target="_blank" rel="noopener noreferrer"

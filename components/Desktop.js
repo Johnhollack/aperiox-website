@@ -19,7 +19,7 @@ import RoadMap from "./RoadMap";
 function Desktop() {
 
     return (
-        <div className="flex flex-col ">
+        <div className="flex flex-col w-screen">
             <Head>
                 <title>Apeirox</title>
                 <meta name="Apeirox" content="Connecting Trades" />
@@ -125,9 +125,9 @@ const styles = StyleSheet.create({
         fontWeight: 'normal',
     },
     downloadContainer: {
-        flexDirection: 'row',
+       flexDirection: 'row',
        marginTop: 40,
-        width: 600,
+       width: 600,
     },
 });
 

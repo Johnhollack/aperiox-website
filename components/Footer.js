@@ -5,35 +5,30 @@ import HeaderItem from "./HeaderItem";
 
 function Footer() {
     return (
-        <div className="flex flex-col justify-start items-start h-auto w-screen">
-            <div className="flex w-4/5 md:w-screen">
+        <div className="flex flex-col justify-start items-start h-auto w-screen overflow-hidden">
+            <div className="flex w-screen">
                 <div className="flex flex-col my-10 mx-5 md:mx-10 ">
-                    <p className="mb-5 text-xs md:text-sm font-bold ">About Us</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">About</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Career</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Business Contacts</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Community</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Terms</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Privacy</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Announcements</p>
+                    <p className="mb-5 text-sm font-bold ">About Us</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">About</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Community</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Terms</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Privacy</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Announcements</p>
                 </div>
                 <div className="flex flex-col my-10 mx-5 md:mx-10 ">
-                    <p className="mb-5 text-xs md:text-sm font-bold ">Products</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">E-commerce</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Swap</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">P2P Trading</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Exchange</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Wallet</p>
+                    <p className="mb-5 text-sm font-bold ">Products</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">E-commerce</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Swap</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">P2P Trading</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Exchange</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Wallet</p>
                 </div>
                 <div className="flex flex-col my-10 mx-5 md:mx-10 ">
-                    <p className="mb-5 text-xs md:text-sm font-bold ">Services</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Downloads</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Buy Crypto</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Fees</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">APX</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Buy AUSD</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">Trading Rules</p>
-                    <p className="mb-2 text-xs md:text-sm cursor-pointer hover:text-white text-gray-400">P2P Merchant</p>
+                    <p className="mb-5 text-sm font-bold ">Services</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Buy Crypto</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Fees</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">APX</p>
+                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Trading Rules</p>
                 </div>
 
             </div>

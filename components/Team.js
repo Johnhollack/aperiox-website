@@ -13,7 +13,7 @@ function Team() {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center w-screen h-auto bg-white">
+        <div className="flex flex-col justify-center items-center w-screen h-auto bg-white overflow-hidden">
             <div className="flex justify-center align-center w-screen h-12 my-10 ">
                 <Text style={styles.textTitle}>Our Team</Text>
             </div>
@@ -22,9 +22,9 @@ function Team() {
                 <div className="flex flex-col md:flex-row md:mb-10 justify-between px-10 w-1/2 md:w-screen">
                     <TeamProfile imgUrl="/team-icon.svg" name="Victor Oyita" position="Co-founder & CEO" />
                     <TeamProfile imgUrl="/team-icon.svg" name="Joseph Okafor" position="Co-founder & CTO" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Co-founder & COO" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Co-founder & Product Engineer" />
-                    <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Co-founder & Backend Engineer" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Efe Wilfred" position="Project Manager" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="John Lekan" position="Lead Frontend Engineer" />
+                    <TeamProfile imgUrl="/team-icon.svg" name="Dare Olushina" position="Backend Engineer" />
                 </div>
 
                 <div className="flex flex-col md:flex-row md:mb-16 justify-between px-10 w-auto md:w-screen">

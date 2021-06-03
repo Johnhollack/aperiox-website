@@ -68,41 +68,45 @@ function BodyOne() {
 
 
     return (
-        <div className="flex flex-col md:flex-row bg-white h-auto w-screen">
+        <div className="flex flex-col md:flex-row bg-white h-auto w-screen overflow-hidden">
 
             <div className="w-screen md:w-1/2 h-5/6 ml-10 my-10 " >
                 <div className="">
                     <p className="font-semibold text-2xl md:text-3xl text-gray-900">Start buying with crypto</p>
                 </div>
 
-                <View style={styles.navigationContainer}>
-                    <div className="">
-                        <button
-                            onClick={onPressPeer}
-                            className={p2p}
-                        >
-                            <p className="font-semibold text-xs md:text-sm text-gray-900">Peer to Peer Trading</p>
-                        </button>
-                    </div>
+                <div className="flex flex-row mt-10">
 
-                    <div className="">
-                        <button
-                            onClick={onPressBuy}
-                            className="cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full"
-                        >
-                            <p className="font-semibold text-xs md:text-sm text-gray-900">Buy Crypto</p>
-                        </button>
-                    </div>
+                    <div className="flex flex-col sm:flex-row">
+                        <div className="">
+                            <button
+                                onClick={onPressPeer}
+                                className={p2p}
+                            >
+                                <p className="font-semibold text-xs md:text-sm text-gray-900">Peer to Peer Trading</p>
+                            </button>
+                        </div>
 
-                    <div className="">
-                        <button
-                            onClick={onPressDeposit}
-                            className="cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full"
-                        >
-                            <p className="font-semibold text-xs md:text-sm text-gray-900">Fiat Deposit</p>
-                        </button>
-                    </div >
-                </View>
+                        <div className="">
+                            <button
+                                onClick={onPressBuy}
+                                className="cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full"
+                            >
+                                <p className="font-semibold text-xs md:text-sm text-gray-900">Buy Crypto</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row">
+                        <div className="">
+                            <button
+                                onClick={onPressDeposit}
+                                className="cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full"
+                            >
+                                <p className="font-semibold text-xs md:text-sm text-gray-900">Fiat Deposit</p>
+                            </button>
+                        </div >
+                    </div>
+                </div>
 
                 <div className={peer}>
                     <p className={titlePeer}>Peer to Peer Trading</p>
@@ -120,14 +124,14 @@ function BodyOne() {
 
                 <div className={deposit}>
                     <p className={titleDeposit}>Deposit Fiat</p>
-                    <p className={subTitleDeposit}>Deposit NGN instantly into your Binance account from Any Nigerian bank.</p>
+                    <p className={subTitleDeposit}>Deposit NGN instantly into your Apeirox account from Any Nigerian bank.</p>
 
                     <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)} />
                 </div>
 
             </div>
 
-            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 md:mb-0">
+            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 ">
                 <img
                     layout="responsive"
                     style={{width: 600, height: 400}}

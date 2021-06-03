@@ -4,7 +4,6 @@ import Head from 'next/head';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import RoadMap from "../components/RoadMap";
 import Link from "next/link";
 import Footer from "../components/Footer";
 
@@ -12,7 +11,6 @@ import Footer from "../components/Footer";
 
 
 function Airdrop() {
-
 
 
     return (
@@ -55,26 +53,26 @@ function Airdrop() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-5xl">Apeirox</p>
-                        <p className="font-semibold mt-3 text-normal text-gray-300">Airdrop Campaigns</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Airdrop Campaigns</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'/'}>
+                        <Link href={'https://t.me/apeiroxbot'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-gray-500 h-10 rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
                                     Receive
                                 </button>
                             </a>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'https://twitter.com/apeiroxcom'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-yellow-500 h-10 rounded w-40 text-black font-semibold hover:bg-yellow-400 ">
-                                    Share with Others
+                                    className="bg-yellow-500 h-10 rounded text-sm w-32 md:w-40 text-black font-semibold hover:bg-yellow-400 ">
+                                    Share on Twitter
                                 </button>
                             </a>
                         </Link>
@@ -82,28 +80,21 @@ function Airdrop() {
                     </div>
 
                     <div className="my-10">
-                        <p className="font-semibold mt-3 text-normal text-yellow-300">
+                        <p className="font-semibold text-sm t-3 text-normal text-yellow-300 text-justify">
                             Michael J. Casey, the chair of CoinDesk's advisory board and an advisor to MIT's blockchain research effort, says: "If a currency isn't widely utilized, it's worthless. And that won't happen unless individuals make a cost-involved effort to encourage wider adoption "he said
                         </p>
 
-                        <p className="font-semibold mt-10 text-normal text-white">Phase 1</p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            We plan to employ airdrops as part of our initial marketing approach, which will entail releasing APX tokens to wallet addresses to raise awareness of our new virtual currency and one-of-a-kind platform.
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            At ApeiroX, we provide users with a new and improved way of doing business in order to close the gaps and address issues such as goods accessibility, security, and quality assurance, as well as ensure the delivery of a trust-free platform where anyone from anywhere in the world can conduct all types of transactions, from local purchases to international trades, without the buyer or seller being burdened with the details and challenges from middlemen. To do so, we use blockchain technology to provide blockchain advantages to ecommerce and fintech, as well as generate jobs.
                         </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            In exchange for basic social duties, APX tokens will be distributed to the wallets of active members of the blockchain community.
-                        </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            The APX tokens will be given solely to existing holders of the crypto wallets, and airdrops will be publicized on the company's website as well as on cryptocurrency platforms like Airdrop Alert.
-                        </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            To be eligible for the airdrop, people must do easy social chores such as posting about Apeirox on social media sites such as Facebook, Medium, and Twitter, as well as other sites.
+                        <p className="mt-3 text-sm text-gray-200  text-justify">
+                            To take part in our Airdrop, simply click the link below.
                         </p>
 
-                        <Link href={'/'}>
+                        <Link href={'https://t.me/apeiroxbot'}>
                             <a target="_blank" rel="noopener noreferrer">
-                                <p className="mt-3 text-normal text-yellow-300">
-                                    Learn more
+                                <p className="mt-3 text-base text-yellow-300">
+                                    Click here
                                 </p>
                             </a>
                         </Link>

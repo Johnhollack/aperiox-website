@@ -66,7 +66,7 @@ function BodyTwo() {
 
 
     return (
-        <div className="flex flex-col md:flex-row h-auto bg-gray-200 w-screen">
+        <div className="flex flex-col md:flex-row h-auto bg-gray-200 w-screen overflow-hidden">
             <div className="w-screen md:w-1/2 h-5/6 ml-10 my-10 " >
                 <div className="">
                     <p className="font-semibold text-2xl md:text-3xl text-gray-900">A full suite of products</p>
@@ -104,10 +104,11 @@ function BodyTwo() {
                 </div>
 
                 <div className={buyCrypto}>
-                    <p className={titleBuy}>Instantly buy Crypto with your Card</p>
-                    <p className={subTitleBuy}>You can generate passive income by staking your favorite assets.
-                        Choose from our wide list of crypto assets, including BNB, USDT, BUSD,ETH and DAI.
-                        Push your investment potential to the next level with Binance Staking and enjoy our reduced fees.</p>
+                    <p className={titleBuy}>Instantly Swap your fiat and crypto currencies</p>
+                    <p className={subTitleBuy}>We will have a multi-swap system that enables swapping tokens across popular blockchains.
+                        You will be able to instantly swap your fiat and cyrpto currencies from one currency to another
+                        and and vise versa.
+                        .</p>
 
                     <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)}/>
                 </div>
@@ -116,7 +117,7 @@ function BodyTwo() {
 
             </div>
 
-            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 md:mb-0">
+            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 ">
                 <img
                     layout="responsive"
                     style={{width: 600, height: 400}}

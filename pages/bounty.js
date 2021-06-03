@@ -47,33 +47,32 @@ function Bounty() {
                 classTitleTokenomics="opacity-0 lg:opacity-100 text-xs font-bold py-3 group-hover:text-yellow-500 uppercase group-hover:opacity-100 tracking-widest"
                 classIconAbout="h-0 lg:h-6 group-hover:animate-bounce group-hover:text-yellow-500 group-hover:text-yellow-500 "
                 classTitleAbout="opacity-0 lg:opacity-100 text-xs font-bold py-3 group-hover:text-yellow-500 uppercase group-hover:opacity-100 tracking-widest"
-
             />
 
             <div className="flex flex-col h-auto w-5/6 mt-20">
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-5xl">Apeirox</p>
-                        <p className="font-semibold mt-3 text-normal text-gray-300">Bounty Campaings</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Bounty Campaings</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'/'}>
+                        <Link href={'https://forms.gle/oVRbBfXgMeJKvNm1A'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-gray-500 h-10 rounded font-semibold w-40 mr-5 hover:bg-gray-400 ">
+                                    className="bg-gray-500 h-10 text-sm rounded font-semibold w-32 md:w-40 mr-5 hover:bg-gray-400 ">
                                     Complete Tasks
                                 </button>
                             </a>
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'https://twitter.com/apeiroxcom'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
-                                    className="bg-yellow-500 h-10 rounded w-40 text-black font-semibold hover:bg-yellow-400 ">
-                                    Share with Others
+                                    className="bg-yellow-500 h-10 rounded text-sm w-32 md:w-40 text-black font-semibold hover:bg-yellow-400 ">
+                                    Share on Twitter
                                 </button>
                             </a>
                         </Link>
@@ -81,28 +80,43 @@ function Bounty() {
                     </div>
 
                     <div className="my-10">
-                        <p className="font-semibold mt-3 text-normal text-yellow-300">
-                            Michael J. Casey, the chair of CoinDesk's advisory board and an advisor to MIT's blockchain research effort, says: "If a currency isn't widely utilized, it's worthless. And that won't happen unless individuals make a cost-involved effort to encourage wider adoption "he said
+                        <p className="font-semibold mt-3 text-sm text-yellow-300 text-justify">
+                            Bounty awards will be awarded to participants who successfully perform various activities as part of our marketing plan for promoting the project.
+                            Bounties and bounty-related duties come in a variety of forms. The following are the most common:
                         </p>
 
-                        <p className="font-semibold mt-10 text-normal text-white">Phase 1</p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            We plan to employ airdrops as part of our initial marketing approach, which will entail releasing APX tokens to wallet addresses to raise awareness of our new virtual currency and one-of-a-kind platform.
-                        </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            In exchange for basic social duties, APX tokens will be distributed to the wallets of active members of the blockchain community.
-                        </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            The APX tokens will be given solely to existing holders of the crypto wallets, and airdrops will be publicized on the company's website as well as on cryptocurrency platforms like Airdrop Alert.
-                        </p>
-                        <p className="mt-3 text-normal text-gray-200">
-                            To be eligible for the airdrop, people must do easy social chores such as posting about Apeirox on social media sites such as Facebook, Medium, and Twitter, as well as other sites.
+                        <p className="font-semibold mt-10 text-normal text-white">Option 1: Meme Campaigns</p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            Participants will make memes based on our brands and services, which
+                            they will share on social media. Participants will be expected to submit links
+                            to the relevant postings.
                         </p>
 
-                        <Link href={'/'}>
+                        <p className="font-semibold mt-10 text-normal text-white">Option 2: Video campaigns and blog posts</p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            Participants in this campaign must submit a favorable blog post about Apeirox or produce a video about Apeirox. Participants will need to study the company's white paper and become familiar with the project's contents in order to do this effectively.
+                        </p>
+
+                        <p className="font-semibold mt-10 text-normal text-white">Option 3: Campaign for translation</p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            This one is rather self-explanatory. Apeirox will compensate participants for translating the website, white paper, or other content.
+                        </p>
+
+                        <p className="font-semibold mt-10 text-normal text-white">Option 4: Social media campaigns on Twitter and Facebook</p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            Participants in this campaign will be required to execute social media-related tasks, as the name implies. Because Facebook and Twitter are two of the most popular social networking networks, chores are frequently associated with them.
+                        </p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            This will range from publishing and re-sharing to liking project-related information on social media.
+                        </p>
+                        <p className="mt-3 text-sm text-gray-200 text-justify">
+                            These bounty campaigns will employ Twitter Audit to check for bogus users on participants' accounts, and they may set a minimum audit score.
+                        </p>
+
+                        <Link href={'https://forms.gle/oVRbBfXgMeJKvNm1A'}>
                             <a target="_blank" rel="noopener noreferrer">
-                                <p className="mt-3 text-normal text-yellow-300">
-                                    Learn more
+                                <p className="mt-3 text-base text-yellow-300">
+                                    Submit your response here
                                 </p>
                             </a>
                         </Link>

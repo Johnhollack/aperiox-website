@@ -4,6 +4,8 @@ import Head from 'next/head';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import Link from "next/link";
+import Footer from "../components/Footer";
 
 
 
@@ -47,6 +49,74 @@ function Product() {
                 classTitleAbout="opacity-0 lg:opacity-100 text-xs font-bold py-3 group-hover:text-yellow-500 uppercase group-hover:opacity-100 tracking-widest"
 
             />
+
+
+            <div className="flex flex-col h-auto w-5/6 mt-20">
+
+                <div className="ml-10 ">
+                    <div className=" ">
+                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Products</p>
+                    </div>
+
+                    <div className="flex h-auto my-5 md:mt-10 w-3/4">
+
+                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button
+                                    className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    E-commerce
+                                </button>
+                            </a>
+                        </Link>
+
+                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button
+                                    className="bg-yellow-500 h-10 text-sm rounded w-28 text-black font-semibold hover:bg-yellow-400 ">
+                                    Dex Swap
+                                </button>
+                            </a>
+                        </Link>
+
+                    </div>
+
+                    <div className="my-10">
+                        <p className="font-semibold mt-10 text-base  text-white">1: E-Wallet Module</p>
+                        <p className="mt-3 text-sm text-gray-200  text-justify">
+                            One unique product of ours is our e-wallet system. The e-wallet will have the capacity to hold values for all national currencies. Any user on the platform will have a unique e-wallet identifier public address assigned to the account. The identifier will be a 32 hexadecimal code and can be used to receive any currency denomination. The e-currencies in this wallet are considered another version of stable coins that are transferable cross-border.
+                        </p>
+
+
+                        <p className="font-semibold mt-10 text-base  text-white">2: Cryptocurrency Wallet</p>
+                        <p className="mt-3 text-sm text-gray-200  text-justify">
+                            We have a critical component for our cryptocurrency community, which is the cryptocurrency wallet. This will be a multi-wallet system, similar to the well-known Trust Wallet, that can hold virtually any coin from as many prominent blockchains as possible.
+                        </p>
+
+
+                        <p className="font-semibold mt-10 text-base text-white">3:Peer To Peer Cryptocurrency Trading</p>
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
+                            P2P trading is also one key feature of our ecosystem because some regions require it for cryptocurrency adoption to grow.
+                            Our P2P platform will require users to create an offer for two different currency pairs, usually from crypto to fiat, however we will make available the option of converting from crypto to crypto.
+                        </p>
+
+                        <p className="font-semibold mt-10 text-base text-white">Step 4: Dex Swaps</p>
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
+                            Another product in our ecosystem is the decentralized swaps. We will have a multi-swap system that enables swapping tokens across popular blockchains.
+                            We'll utilize a one-of-a-kind tracker system that searches for the lowest rates across all decentralized exchanges and automatically executes swaps on the user's behalf.
+                        </p>
+
+                        <p className="font-semibold mt-10 text-base text-white">Step 5: E-commerce module</p>
+                        <p className="mt-3 text-sm  text-gray-200  text-justify">
+                            ApeiroX's main offering is the e-commerce module. It's a unique mechanism that allows parties to conduct trustless transactions. It also allows low-order merchants to sell their products on a worldwide scale, even if they don't know how to use the platform.                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <Footer className=" "/>
 
 
 
