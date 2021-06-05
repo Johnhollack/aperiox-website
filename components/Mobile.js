@@ -52,7 +52,6 @@ function Mobile() {
             </div>
 
 
-
             <div className="mt-1 flex w-screen justify-center">
                 <ButtonDark subtitle="COMING SOON" title="Google PlayStore" icon={faGooglePlay} />
                 <ButtonDark subtitle="COMING SOON" title="App Store" icon={faApple} />

@@ -7,10 +7,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 function ButtonDark({title, icon, subtitle}) {
     return (
         <TouchableOpacity
-            style={styles.registerContainer}
+            style={styles.downloadContainer}
         >
             <View style={styles.icon}>
-                <FontAwesomeIcon icon={icon}  className="h-5 text-gray-500"/>
+                <FontAwesomeIcon icon={icon}  className="h-5 text-white"/>
             </View>
             <View style={styles.textContainer}>
                 <Text style={styles.text0}>{subtitle}</Text>
@@ -23,12 +23,12 @@ function ButtonDark({title, icon, subtitle}) {
 export default ButtonDark;
 
 const styles = StyleSheet.create({
-    registerContainer: {
+    downloadContainer: {
         flexDirection: 'row',
-        borderWidth: 1,
-        borderColor: '#111',
-        backgroundColor: 'transparent',
-        width: 130,
+        borderWidth: 1.5,
+        borderColor: '#fff',
+        backgroundColor: '#2f95dc',
+        width: 135,
         height: 40,
         borderRadius: 10,
         alignItems: "center",
@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
         marginLeft: 5,
     },
     text0: {
-        fontSize: 10,
+        fontSize: 9,
         fontWeight: 400,
-        color: '#111'
+        color: '#fff'
     },
     text1: {
         fontSize: 12,
         fontWeight: 600,
-        color: '#111'
+        color: '#fff'
     },
 });
