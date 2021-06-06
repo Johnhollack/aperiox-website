@@ -4,7 +4,7 @@ import React from "react";
 function Listings () {
     return (
         <div  className="flex flex-col sm:flex-row h-52 w-screen justify-evenly items-center bg-white overflow-hidden">
-            <Link href={'https://bscscan.com/'}>
+            <Link href={'https://bscscan.com/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
                 <a
                     target="_blank" rel="noopener noreferrer"
                     className="cursor-pointer h-8">
