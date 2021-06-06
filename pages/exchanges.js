@@ -63,7 +63,7 @@ function Exchange() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                        <Link href={'https://bscscan.com/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
@@ -72,7 +72,7 @@ function Exchange() {
                             </a>
                         </Link>
 
-                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                        <Link href={'https://exchange.pancakeswap.finance/#/swap'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-yellow-500 h-10 text-sm rounded w-36 text-black font-semibold hover:bg-yellow-400 ">
@@ -93,7 +93,7 @@ function Exchange() {
                         <p className="mt-3 text-normal text-gray-200  text-justify">
                             Create your wallet with Trust Wallet. Keep your phrase under wraps! Never give it out to anybody and keep it safe! Make a note of the contract address shown below!
                         </p>
-                        <p className="font-semibold mt-5 text-sm  text-yellow-300">0xcdc3d1e33c0ba574d593d193070aacc335481bb9</p>
+                        <p className="font-semibold mt-5 text-sm  text-yellow-300">0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f</p>
 
 
                         <p className="font-semibold mt-10 text-base  text-white">The second step is to Sync ApeiroX with your wallet.</p>

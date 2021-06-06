@@ -62,27 +62,35 @@ function Product() {
                     <div className="flex flex-col  md:flex-row h-auto my-5 md:mt-10 w-3/4">
 
                         <div className="flex mb-3 md:mb-0">
-                            <button
-                                className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
-                                E-commerce
-                            </button>
+                            <a
+                                href="#ecommerce" >
+                                <button className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    E-commerce
+                                </button>
+                            </a>
 
-                            <button
-                                className="bg-yellow-500 mr-5 h-10 text-sm rounded w-28 text-black font-semibold hover:bg-yellow-400 ">
-                                Dex Swap
-                            </button>
+                            <a
+                                href="#dexswap">
+                                <button className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    Dex Swap
+                                </button>
+                            </a>
                         </div>
 
                         <div className="flex">
-                            <button
-                                className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
-                                Wallets
-                            </button>
+                            <a
+                                href="#wallet" >
+                                <button className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    Wallets
+                                </button>
+                            </a>
 
-                            <button
-                                className="bg-yellow-500 mr-5 h-10 text-sm rounded w-28 text-black font-semibold hover:bg-yellow-400 ">
-                                P2P
-                            </button>
+                            <a
+                                href="#p2p">
+                                <button className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    P2P
+                                </button>
+                            </a>
                         </div>
 
 
@@ -91,7 +99,7 @@ function Product() {
                     </div>
 
                     <div className="my-10">
-                        <p className="font-semibold mt-10 text-base  text-white">1: E-Wallet Module</p>
+                        <p className="font-semibold mt-10 text-base  text-white" name="wallet" id="wallet">1: E-Wallet Module</p>
                         <p className="mt-3 text-sm text-gray-200  text-justify">
                             One unique product of ours is our e-wallet system. The e-wallet will have the capacity to hold values for all national currencies. Any user on the platform will have a unique e-wallet identifier public address assigned to the account. The identifier will be a 32 hexadecimal code and can be used to receive any currency denomination. The e-currencies in this wallet are considered another version of stable coins that are transferable cross-border.
                         </p>
@@ -103,19 +111,18 @@ function Product() {
                         </p>
 
 
-                        <p className="font-semibold mt-10 text-base text-white">3:Peer To Peer Cryptocurrency Trading</p>
-                        <p className="mt  P2P trading is also one key feature of our ecosystem because some regions require it for cryptocurrency adoption to grow.
+                        <p className="font-semibold mt-10 text-base text-white" name="p2p" id="p2p">3: Peer To Peer Cryptocurrency Trading</p>
+                        <p className="mt-3 text-sm text-gray-200  text-justify">P2P trading is also one key feature of our ecosystem because some regions require it for cryptocurrency adoption to grow.
                             Our P2P platform will require users to create an offer for two different currency pairs, usually from crypto to fiat, however we will make available the option of converting from crypto to crypto.
-                        -3 text-sm  text-gray-200  text-justify">
-                          </p>
+                        </p>
 
-                        <p className="font-semibold mt-10 text-base text-white">Step 4: Dex Swaps</p>
+                        <p className="font-semibold mt-10 text-base text-white" name="dexswap" id="dexswap">4: Dex Swaps</p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Another product in our ecosystem is the decentralized swaps. We will have a multi-swap system that enables swapping tokens across popular blockchains.
                             We'll utilize a one-of-a-kind tracker system that searches for the lowest rates across all decentralized exchanges and automatically executes swaps on the user's behalf.
                         </p>
 
-                        <p className="font-semibold mt-10 text-base text-white">Step 5: E-commerce module</p>
+                        <p className="font-semibold mt-10 text-base text-white" name="ecommerce" id="ecommerce">5: E-commerce module</p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
                             ApeiroX's main offering is the e-commerce module. It's a unique mechanism that allows parties to conduct trustless transactions. It also allows low-order merchants to sell their products on a worldwide scale, even if they don't know how to use the platform.                        </p>
                     </div>
