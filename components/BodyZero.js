@@ -1,30 +1,66 @@
-import React, {useState} from 'react'
-import {StyleSheet, View, TextInput} from "react-native";
+import React, {useState, useEffect} from 'react'
+import {StyleSheet, View, TouchableOpacity, TextInput} from "react-native";
 import ButtonYellow from "./ButtonYellow";
 import ButtonDark from "./ButtonDark";
 import {faApple, faGooglePlay, faTelegram} from "@fortawesome/free-brands-svg-icons";
 import {useRouter} from "next/router";
 import Link from "next/link";
-
+import axios from 'axios';
+import { toast, ToastContainer } from 'react-nextjs-toast';
 
 
 function BodyZero() {
     const router =useRouter();
-    const [message, setMessage] = useState('');
+    const [email, setEmail] = useState('');
+
+
+//    useEffect(() => {
+//        const PostEmail = async () => {
+ //           const userEmail = await fetch('http://apeirox.com/api/waitlist')
+ //               .then((res) => res.json());
+ //           console.log(userEmail.data);
+ //       };
+ //   }, []);
+
+
 
     const onPress = () => {
+        console.log(email);
 
+        try {
+            const waitlist = axios.post('https://api.landearn.com/api/apeirox_waitlist', {
+                    email: email
+                })
+                .then(function (response) {
+                    console.log(response.data);
+                    //return {};
+                    toast.notify(`Thanks, You've successfully joined our waitlist!`)
+                })
+                .catch(function (error) {
+                    //return {}
+                    toast.notify(`Error in sending your email!`)
+                });
+        }catch(e) {
+            console.log(e)
+        }
+
+        //setEmail(email);
+    };
+
+    const onSendPress = () => {
+        toast.notify(`Thanks, You've successfully been added to our waitlist!`)
     };
 
 
     return (
         <div className="flex flex-col h-auto w-screen md:w-4/6 mt-32 overflow-hidden">
+            <ToastContainer />
 
             <div className="ml-10 ">
                 <View className=" ">
-                    <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Welcome to</p>
+                    <p className="font-semibold mt-3 text-sm md:text-base text-gray-200">Welcome to</p>
                     <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
-                    <p className="font-semibold mt-3 text-xs md:text-sm text-gray-400 w-5/6">
+                    <p className=" mt-3 text-sm md:text-base text-gray-300 w-5/6">
                         Apeirox is a trust-less, flexibly safe e-commerce platform that introduce
                         blockchain benefits to commerce and link local suppliers to both local and foreign markets, with the aim of reducing
                         financial disparities and improving product accessibility. Our suite of products include
@@ -37,11 +73,11 @@ function BodyZero() {
                         <TextInput
                             placeholder={'Email Address'}
                             style={styles.textInput}
-                            value={message}
-                            onChangeText={setMessage}
+                            value={email}
+                            onChangeText={setEmail}
                         />
                     </div>
-                    <ButtonYellow title="Register Now" onClick={() => router.push(`/`)}/>
+                    <ButtonYellow title="Join Wait List" onClick={onPress}/>
                 </div>
 
                 <div className="flex md:flex-row mt-10 mb-16 ">

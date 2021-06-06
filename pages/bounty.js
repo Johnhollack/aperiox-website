@@ -59,7 +59,7 @@ function Bounty() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://forms.gle/oVRbBfXgMeJKvNm1A'}>
+                        <Link href={'https://t.me/apeiroxbounty'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-32 md:w-40 mr-5 hover:bg-gray-400 ">
@@ -113,10 +113,10 @@ function Bounty() {
                             These bounty campaigns will employ Twitter Audit to check for bogus users on participants' accounts, and they may set a minimum audit score.
                         </p>
 
-                        <Link href={'https://forms.gle/oVRbBfXgMeJKvNm1A'}>
+                        <Link href={'https://t.me/apeiroxbounty'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <p className="mt-3 text-base text-yellow-300">
-                                    Submit your response here
+                                    Join the bounty group on telegram
                                 </p>
                             </a>
                         </Link>

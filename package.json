@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@heroicons/react": "^1.0.1",
+    "axios": "^0.21.1",
     "expo-font": "^9.1.0",
     "next": "latest",
     "next-fonts": "^1.5.1",
@@ -25,6 +26,7 @@
     "react-dom": "^17.0.1",
     "react-native": "^0.64.1",
     "react-native-web": "^0.16.3",
+    "react-nextjs-toast": "^1.2.5",
     "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {

@@ -157,7 +157,7 @@ function RoadMap() {
 
                 <div className={buyCrypto}>
                     <p className={titleBuy}>Second Quarter</p>
-                    <p className={subTitleBuy}>Product development, Launch of product (Beta phase), Onboarding phase (aggregators, verifiers and dispatchers), Market expansion across Africa
+                    <p className={subTitleBuy}>Product development, Onboarding phase (aggregators, verifiers and dispatchers), Launch of product (Beta phase), Market expansion across Africa
                     </p>
 
                     <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)}/>

@@ -60,20 +60,11 @@ function Whitepaper() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://docs.google.com/document/d/1NfYpihEfXJah_dHG2yZYEjuQgovz_wLE/edit#'}>
+                        <Link href={'/whitepaper-v1.0.pdf'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
                                     Download
-                                </button>
-                            </a>
-                        </Link>
-
-                        <Link href={'https://drive.google.com/file/d/1NfYpihEfXJah_dHG2yZYEjuQgovz_wLE/view'}>
-                            <a target="_blank" rel="noopener noreferrer">
-                                <button
-                                    className="bg-yellow-500 text-sm h-10 rounded w-40 text-black font-semibold hover:bg-yellow-400 ">
-                                    Save to Drive
                                 </button>
                             </a>
                         </Link>
@@ -115,7 +106,7 @@ function Whitepaper() {
                             Aggregators, Verifiers & Dispatchers
                         </p>
 
-                        <Link href={'/'}>
+                        <Link href={'/whitepaper-v1.0.pdf'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <p className="mt-3 text-sm text-yellow-300">
                                     Learn more

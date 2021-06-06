@@ -6,6 +6,7 @@ import ButtonYellow from "./ButtonYellow";
 import {useRouter} from "next/router";
 
 
+
 function BodyTwo() {
     const router =useRouter();
     //const [modalVisible, setModalVisible] = useState(false);
@@ -93,6 +94,8 @@ function BodyTwo() {
         setCommerce("cursor-pointer w-24 md:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-yellow-500 rounded-full");
     };
 
+
+
     return (
         <div className="flex flex-col md:flex-row h-auto bg-gray-200 w-screen overflow-hidden">
             <div className="w-screen md:w-1/2 h-5/6 ml-10 my-10 " >
@@ -144,7 +147,7 @@ function BodyTwo() {
 
                 <div className={peer}>
                     <p className={titlePeer}>Trade seamlessly with Aperiox Exchange</p>
-                    <p className={subTitlePeer}>Do do you want to buy or sell any commodity of your choice
+                    <p className={subTitlePeer}>Do you want to buy or sell any commodity of your choice
                         as well as being in control of your financial services?
                         You can trade both locally and internationally using our commerce platform.
                         Start by using the button below.</p>
@@ -186,11 +189,11 @@ function BodyTwo() {
 
             </div>
 
-            <div className="flex w-5/6 md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 ">
+            <div className="flex w-5/6 justify-center items-center md:w-1/2 h-96 ml-10 md:ml-0 md:mr-10 md:my-10 mb-10 ">
                 <img
                     layout="responsive"
-                    style={{width: 600, height: 400}}
-                    src='/e-commerce.svg'
+                    style={{width: 400, height: 400}}
+                    src='/commerce.png'
 
                 />
             </div>
