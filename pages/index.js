@@ -6,6 +6,7 @@ import {windowWidth, windowHeight} from "../utils/Dimentions";
 import HeaderItem from "../components/HeaderItem";
 import {faApple, faLinkedin, faGooglePlay, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import ButtonDark from "../components/ButtonDark";
+import Link from "next/link";
 
 
 
@@ -28,7 +29,7 @@ function App() {
   return (
       <View style={styles.container}>
           <Head>
-              <title>GoFree: Chat, Call & Bank for free</title>
+              <title>GoFree: Chat, Call & Bank for Free</title>
               <meta name="goFree" content="Just be free" />
               <link rel="icon" href="/logo.svg" />
           </Head>
@@ -43,7 +44,7 @@ function App() {
                   <div className="flex flex-col h-1/2 md:h-full w-full md:w-3/5 justify-center items-center">
                       <div className="flex flex-col justify-center items-center">
                           <div className="">
-                              <img src="/logo.svg" alt="african women" className="h-10 w-10"/>
+                              <img src="/logo.svg" alt="GoFree Logo" className="h-10 w-10"/>
                           </div>
                           <div className="px-10 py-10">
                               <p className="text-white font-base text-lg md:text-3xl text-center font-sans">Connecting a billion Africans with </p>
@@ -57,7 +58,7 @@ function App() {
                   </div>
 
                   <div className="flex h-1/2 md:h-auto w-full md:w-2/5 justify-center items-center">
-                      <img src="/phone.png" alt="african women" className=" h-full w-4/6 object-contain"/>
+                      <img src="/phone.png" alt="Phone Demo" className=" h-full w-4/6 object-contain"/>
                   </div>
               </div>
 
@@ -66,7 +67,9 @@ function App() {
 
                   <div className="flex justify-evenly items-center">
                       <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">About</p>
-                      <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
+                      <Link href='/payments'>
+                          <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
+                      </Link>
                       <p className="cursor-pointer hover:text-gray-300 text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Help Center</p>
                       <div className="flex justify-evenly items-center">
                           <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Terms</p>
@@ -82,10 +85,6 @@ function App() {
               </div>
 
           </div>
-
-
-
-
 
       </View>
   );
