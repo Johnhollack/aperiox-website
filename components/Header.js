@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { faFacebook, faTwitter, faInstagram, } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTwitter, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
 import HeaderItem from "./HeaderItem";
 import MenuButton from "./MenuButton";
 import ModalSheet from "./ModalSheet";
@@ -20,7 +20,7 @@ function Header() {
 
     return (
         <header className="flex justify-evenly md:justify-between px-10 py-5 items-center h-auto w-screen overflow-hidden">
-            <img src="/logo3.png" alt="Apeirox Logo" className="h-10 sm:h-12 object-contain" />
+            <img src="/logo3.png" alt="ApeiroX Logo" className="h-10 sm:h-12 object-contain" />
 
             <ModalSheet
                 modalVisible={modalVisible}
@@ -42,9 +42,10 @@ function Header() {
             <div className="flex ">
 
                 <div className="flex items-center justify-end sm:justify-evenly w-52 ">
-                    <HeaderItem icon={faFacebook} url="https://facebook.com/apeiroxcom" />
-                    <HeaderItem icon={faTwitter} url="https://twitter.com/apeiroxcom" />
-                    <HeaderItem icon={faInstagram} url="https://instagram.com/apeiroxcom" />
+                    <HeaderItem icon={faFacebook} url="https://facebook.com/ApeiroXcom" />
+                    <HeaderItem icon={faTwitter} url="https://twitter.com/ApeiroXcom" />
+                    <HeaderItem icon={faInstagram} url="https://instagram.com/ApeiroXcom" />
+                    <HeaderItem icon={faGithub} url="https://github.com/ApeiroXContract/ApeiroX" />
                 </div>
 
                 <MenuButton

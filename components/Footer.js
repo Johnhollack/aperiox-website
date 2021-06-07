@@ -16,7 +16,7 @@ function Footer() {
                 <div className="flex flex-col my-10 mx-5 md:mx-10 ">
                     <p className="mb-5 text-sm font-bold ">About Us</p>
                     <p onClick={() => router.push(`/about`)} className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">About</p>
-                    <Link href={'https://t.me/apeiroxcom'}>
+                    <Link href={'https://t.me/ApeiroXcom'}>
                         <a
                             target="_blank" rel="noopener noreferrer">
                             <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Community</p>
@@ -46,7 +46,7 @@ function Footer() {
             </div>
 
             <div className="ml-10 mb-5">
-                <p className="mb-2 text-xs text-gray-400">Copyright @ 2021 Apeirox LLC |  All Rights Reserved.</p>
+                <p className="mb-2 text-xs text-gray-400">Copyright @ 2021 ApeiroX LLC |  All Rights Reserved.</p>
             </div>
 
         </div>

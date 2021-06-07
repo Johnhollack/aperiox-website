@@ -20,8 +20,8 @@ function Exchange() {
     return (
         <div className="flex flex-col ">
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
+                <title>ApeiroX</title>
+                <meta name="ApeiroX" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
@@ -57,7 +57,7 @@ function Exchange() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                         <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">How to buy Aperiox (APX)</p>
                     </div>
 
@@ -72,7 +72,7 @@ function Exchange() {
                             </a>
                         </Link>
 
-                        <Link href={'https://bscscan.com/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
+                        <Link href={'https://exchange.pancakeswap.finance/#/swap'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-yellow-500 h-10 text-sm rounded w-36 text-black font-semibold hover:bg-yellow-400 ">
@@ -98,7 +98,7 @@ function Exchange() {
 
                         <p className="font-semibold mt-10 text-base  text-white">The second step is to Sync ApeiroX with your wallet.</p>
                         <p className="mt-3 text-normal text-gray-200  text-justify">
-                            Search for "Apeirox" using the icon in the top-right corner. Tap "Add Custom Token" if it isn't already there.
+                            Search for "ApeiroX" using the icon in the top-right corner. Tap "Add Custom Token" if it isn't already there.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Change the "Ethereum" next to Network to "Smart Chain" at the top. Copy and paste the contract address from this page into the Contract Address field.

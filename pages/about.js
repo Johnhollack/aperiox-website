@@ -17,8 +17,8 @@ function About() {
     return (
         <div className="flex flex-col ">
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
+                <title>ApeiroX</title>
+                <meta name="ApeiroX" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
@@ -55,7 +55,7 @@ function About() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                         <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">About Us</p>
                     </div>
 

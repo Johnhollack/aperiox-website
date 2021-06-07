@@ -17,8 +17,8 @@ function Bounty() {
     return (
         <div className="flex flex-col ">
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
+                <title>ApeiroX</title>
+                <meta name="ApeiroX" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
@@ -53,13 +53,13 @@ function Bounty() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                         <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Bounty Campaings</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://t.me/apeiroxbounty'}>
+                        <Link href={'https://t.me/ApeiroXbounty'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-32 md:w-40 mr-5 hover:bg-gray-400 ">
@@ -68,7 +68,7 @@ function Bounty() {
                             </a>
                         </Link>
 
-                        <Link href={'https://twitter.com/apeiroxcom'}>
+                        <Link href={'https://twitter.com/ApeiroXcom'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-yellow-500 h-10 rounded text-sm w-32 md:w-40 text-black font-semibold hover:bg-yellow-400 ">
@@ -94,12 +94,12 @@ function Bounty() {
 
                         <p className="font-semibold mt-10 text-normal text-white">Option 2: Video campaigns and blog posts</p>
                         <p className="mt-3 text-sm text-gray-200 text-justify">
-                            Participants in this campaign must submit a favorable blog post about Apeirox or produce a video about Apeirox. Participants will need to study the company's white paper and become familiar with the project's contents in order to do this effectively.
+                            Participants in this campaign must submit a favorable blog post about ApeiroX or produce a video about ApeiroX. Participants will need to study the company's white paper and become familiar with the project's contents in order to do this effectively.
                         </p>
 
                         <p className="font-semibold mt-10 text-normal text-white">Option 3: Campaign for translation</p>
                         <p className="mt-3 text-sm text-gray-200 text-justify">
-                            This one is rather self-explanatory. Apeirox will compensate participants for translating the website, white paper, or other content.
+                            This one is rather self-explanatory. ApeiroX will compensate participants for translating the website, white paper, or other content.
                         </p>
 
                         <p className="font-semibold mt-10 text-normal text-white">Option 4: Social media campaigns on Twitter and Facebook</p>
@@ -113,7 +113,7 @@ function Bounty() {
                             These bounty campaigns will employ Twitter Audit to check for bogus users on participants' accounts, and they may set a minimum audit score.
                         </p>
 
-                        <Link href={'https://t.me/apeiroxbounty'}>
+                        <Link href={'https://t.me/ApeiroXbounty'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <p className="mt-3 text-base text-yellow-300">
                                     Join the bounty group on telegram

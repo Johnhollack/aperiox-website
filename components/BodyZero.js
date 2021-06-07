@@ -16,7 +16,7 @@ function BodyZero() {
 
 //    useEffect(() => {
 //        const PostEmail = async () => {
- //           const userEmail = await fetch('http://apeirox.com/api/waitlist')
+ //           const userEmail = await fetch('http://ApeiroX.com/api/waitlist')
  //               .then((res) => res.json());
  //           console.log(userEmail.data);
  //       };
@@ -28,7 +28,7 @@ function BodyZero() {
         console.log(email);
 
         try {
-            const waitlist = axios.post('https://api.landearn.com/api/apeirox_waitlist', {
+            const waitlist = axios.post('https://api.myjobdesk.com/api/apeirox_waitlist', {
                     email: email
                 })
                 .then(function (response) {
@@ -59,9 +59,9 @@ function BodyZero() {
             <div className="ml-10 ">
                 <View className=" ">
                     <p className="font-semibold mt-3 text-sm md:text-base text-gray-200">Welcome to</p>
-                    <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                    <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                     <p className=" mt-3 text-sm md:text-base text-gray-300 w-5/6">
-                        Apeirox is a trust-less, flexibly safe e-commerce platform that introduce
+                        ApeiroX is a trust-less, flexibly safe e-commerce platform that introduce
                         blockchain benefits to commerce and link local suppliers to both local and foreign markets, with the aim of reducing
                         financial disparities and improving product accessibility. Our suite of products include
                         e-Commerce, DEX swaps, P2P and e-Wallets.
@@ -98,7 +98,7 @@ function BodyZero() {
                         </Link>
                     </div>
 
-                    <Link href={'https://t.me/aperioxcom'}>
+                    <Link href={'https://t.me/ApeiroXcom'}>
                         <a
                             target="_blank" rel="noopener noreferrer"
                             className="cursor-pointer ">

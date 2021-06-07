@@ -16,8 +16,8 @@ function Airdrop() {
     return (
         <div className="flex flex-col ">
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
+                <title>ApeiroX</title>
+                <meta name="ApeiroX" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
@@ -53,13 +53,13 @@ function Airdrop() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                         <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Airdrop Campaigns</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://t.me/apeiroxbot'}>
+                        <Link href={'https://t.me/ApeiroX_bot'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
@@ -68,7 +68,7 @@ function Airdrop() {
                             </a>
                         </Link>
 
-                        <Link href={'https://twitter.com/apeiroxcom'}>
+                        <Link href={'https://twitter.com/ApeiroXcom'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-yellow-500 h-10 rounded text-sm w-32 md:w-40 text-black font-semibold hover:bg-yellow-400 ">
@@ -91,7 +91,7 @@ function Airdrop() {
                             To take part in our Airdrop, simply click the link below.
                         </p>
 
-                        <Link href={'https://t.me/apeiroxbot'}>
+                        <Link href={'https://t.me/ApeiroX_bot'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <p className="mt-3 text-base text-yellow-300">
                                     Click here

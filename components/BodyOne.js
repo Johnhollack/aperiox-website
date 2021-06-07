@@ -124,7 +124,7 @@ function BodyOne() {
 
                 <div className={deposit}>
                     <p className={titleDeposit}>Deposit Fiat</p>
-                    <p className={subTitleDeposit}>Deposit NGN instantly into your Apeirox account from Any Nigerian bank.</p>
+                    <p className={subTitleDeposit}>Deposit NGN instantly into your ApeiroX account from Any Nigerian bank.</p>
 
                     <ButtonYellow title="Start Trading" onClick={() => router.push(`/exchanges`)} />
                 </div>

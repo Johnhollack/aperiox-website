@@ -17,8 +17,8 @@ function Whitepaper() {
     return (
         <div className="flex flex-col ">
             <Head>
-                <title>Apeirox</title>
-                <meta name="Apeirox" content="Connecting Trades" />
+                <title>ApeiroX</title>
+                <meta name="ApeiroX" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
@@ -54,7 +54,7 @@ function Whitepaper() {
 
                 <div className="ml-10 ">
                     <div className=" ">
-                        <p className="font-extrabold text-3xl md:text-5xl">Apeirox</p>
+                        <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
                         <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Whitepaper v1.0</p>
                     </div>
 
@@ -95,7 +95,7 @@ function Whitepaper() {
 
                         <p className="font-semibold mt-10 text-normal text-white">Solution</p>
                         <p className="mt-3 text-sm text-gray-200 text-justify">
-                            Apeirox is a one-of-a-kind, trust-less, flexibly-secure, robust e-commerce platform that uses blockchain technology to introduce blockchain benefits to commerce and connect local producers and suppliers of consumer goods with key emphasis on agriculture and natural resources; to both local and international markets, with a goal to solve financial inequalities and enhancing of product accessibility with great ease.                        </p>
+                            ApeiroX is a one-of-a-kind, trust-less, flexibly-secure, robust e-commerce platform that uses blockchain technology to introduce blockchain benefits to commerce and connect local producers and suppliers of consumer goods with key emphasis on agriculture and natural resources; to both local and international markets, with a goal to solve financial inequalities and enhancing of product accessibility with great ease.                        </p>
                         <p className="mt-3 text-sm text-gray-200 text-justify">
                             This project is about a new and improved way of doing business in order to bridge the gaps and address the issues of goods accessibility, security and quality assurance, as well as ensure the delivery of a trust-less platform where everyone from anywhere in the world can perform all types of transactions, from local purchases to international trades, without the buyer or seller burdened with the details and challenges from middlemen.
                         </p>

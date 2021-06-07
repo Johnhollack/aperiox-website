@@ -20,8 +20,8 @@ function App() {
   return (
       <div className="flex flex-col w-screen">
         <Head>
-          <title>Apeirox</title>
-          <meta name="Apeirox" content="Connecting Trades" />
+          <title>ApeiroX</title>
+          <meta name="ApeiroX" content="Connecting Trades" />
           <link rel="icon" href="/logo.svg" />
         </Head>
 
