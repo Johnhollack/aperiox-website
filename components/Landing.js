@@ -10,7 +10,7 @@ function Landing() {
     };
 
     return (
-        <div className="flex flex-col h-screen w-screen absolute justify-evenly">
+        <div className="flex flex-col h-96 md:h-screen overflow-hidden w-screen absolute justify-evenly">
             <TopBar />
             <Welcome />
         </div>

@@ -10,6 +10,9 @@ import TopBar from "../components/TopBar";
 import Welcome from "../components/Welcome";
 import Mission from "../components/Mission";
 import Landing from "../components/Landing";
+import Products from "../components/Products";
+import UseCases from "../components/UseCases";
+import Footer from "../components/Footer";
 
 
 
@@ -30,25 +33,32 @@ function Payments() {
     //console.log(windowWidth);
 
   return (
-      <View style={styles.container}>
+      <div className="flex flex-col overflow-hidden w-screen">
           <Head>
-              <title>GoFree: Chat, Call & Bank for Free</title>
-              <meta name="goFree" content="Just be free" />
+              <title>GoFree Payments</title>
+              <meta name="GoFree Payments" content="Just be free" />
               <link rel="icon" href="/logo.svg" />
           </Head>
 
           <div className="">
-              <img src="/bg.png" alt="african women" layout="responsive" className="h-screen w-screen"/>
+              <img src="/bg.png" alt="african women" layout="responsive" className="h-96 md:h-screen w-screen"/>
           </div>
 
           <Landing />
 
           <Mission />
 
+          <Products />
+
+          <UseCases />
+
+          <Footer />
 
 
 
-      </View>
+
+
+      </div>
   );
 }
 
