@@ -68,12 +68,12 @@ function App() {
                   <div className="flex justify-evenly items-center">
                       <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">About</p>
                       <Link href='/payments'>
-                          <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
+                          <p className="cursor-pointer hover:text-gray-300 text-white w-14 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
                       </Link>
                       <p className="cursor-pointer hover:text-gray-300 text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Help Center</p>
+                      <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Terms</p>
+                      <p className="cursor-pointer hover:text-gray-300 text-white w-24 md:w-24 text-center text-xs md:text-sm md:font-semibold">Privacy Policy</p>
                       <div className="flex justify-evenly items-center">
-                          <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Terms</p>
-                          <p className="cursor-pointer hover:text-gray-300 text-white w-24 md:w-24 text-center text-xs md:text-sm md:font-semibold">Privacy Policy</p>
                           <div className="flex flex-row items-center md:ml-10">
                               <HeaderItem icon={faLinkedin} url="https://www.linkedin.com/company/swiftpayapp" />
                               <HeaderItem icon={faTwitter} url="https://twitter.com/gofreeHQ" />
