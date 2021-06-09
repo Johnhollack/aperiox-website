@@ -43,8 +43,6 @@ function BodyZero() {
         }catch(e) {
             console.log(e)
         }
-
-        //setEmail(email);
     };
 
     const onSendPress = () => {

@@ -60,7 +60,7 @@ function Tokenomics() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                        <Link href={'https://bscscan.com/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
@@ -69,7 +69,7 @@ function Tokenomics() {
                             </a>
                         </Link>
 
-                        <Link href={'https://bscscan.com/token/0xcdc3d1e33c0ba574d593d193070aacc335481bb9'}>
+                        <Link href={'https://exchange.pancakeswap.finance/#/swap'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-yellow-500 h-10 text-sm rounded w-40 text-black font-semibold hover:bg-yellow-400 ">
