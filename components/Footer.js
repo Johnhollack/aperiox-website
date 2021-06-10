@@ -24,7 +24,7 @@ function Footer() {
                     </Link>
 
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Terms</p>
-                    <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Privacy</p>
+                    <p onClick={() => router.push(`/privacy`)} className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Privacy</p>
                     <p className="mb-2 text-sm cursor-pointer hover:text-white text-gray-400">Announcements</p>
                 </div>
                 <div className="flex flex-col my-10 mx-5 md:mx-10 ">

@@ -104,7 +104,7 @@ function Exchange() {
                             Change the "Ethereum" next to Network to "Smart Chain" at the top. Copy and paste the contract address from this page into the Contract Address field.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
-                            Put "ApeiroX" as the name and APX as the symbol. The number of decimals will be 8.
+                            Put "ApeiroX" as the name and APX as the symbol. The number of decimals will be 18.
                         </p>
                         <p className="mt-3 text-sm  text-gray-200  text-justify">
                             Click "Done" at the top, and ApeiroX should now be in your wallet!
