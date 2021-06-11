@@ -191,7 +191,7 @@ function Terms() {
     );
 }
 
-export default Privacy;
+export default Terms;
 
 
 const styles = StyleSheet.create({
