@@ -18,7 +18,7 @@ function Product() {
         <div className="flex flex-col ">
             <Head>
                 <title>ApeiroX</title>
-                <meta name="ApeiroX" content="Connecting Trades" />
+                <meta name="ApeiroX - product" content="Connecting Trades" />
                 <link rel="icon" href="/logo.svg" />
             </Head>
 
