@@ -75,7 +75,24 @@ function BodyZero() {
                             onChangeText={setEmail}
                         />
                     </div>
-                    <ButtonYellow title="Join Wait List" onClick={onPress}/>
+                    <div className="flex flex-col sm:flex-row">
+                        <div className="flex mb-2 sm:mb-0">
+                            <ButtonYellow title="Join Wait List" onClick={onPress}/>
+                            <Link href={'https://dex.guru/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f-bsc'}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <button
+                                        className="bg-gray-900 h-10 text-sm rounded font-semibold w-24 mx-3 hover:bg-gray-400 ">
+                                        Live Chart
+                                    </button>
+                                </a>
+                            </Link>
+                        </div>
+                        <button
+                            onClick={() => router.push(`/exchanges`)}
+                            className="bg-gray-700 h-10 text-sm rounded font-semibold w-24 hover:bg-gray-400 ">
+                            Buy Now
+                        </button>
+                    </div>
                 </div>
 
                 <div className="flex md:flex-row mt-10 mb-16 ">
