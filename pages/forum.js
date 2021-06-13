@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import PrivateSale from "../components/PrivateSale";
 
 
 
@@ -48,11 +49,13 @@ function Forum() {
 
             />
 
-            <div className="flex flex-col h-auto w-screen mt-20 h-52 justify-center items-center">
+            <div className="flex flex-col h-auto w-screen mt-20 justify-center items-center">
 
-                <p className="font-semibold mt-3 text-lg text center text-yellow-400 text-justify">
-                    Coming Soon
+                <p className="font-semibold w-4/5 my-5 text-lg text-left text-yellow-400 text-justify">
+                    Please kindly note all responses are required
                 </p>
+
+                <PrivateSale />
 
 
             </div>
