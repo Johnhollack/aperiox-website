@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aperiox-website.iml" filepath="$PROJECT_DIR$/.idea/aperiox-website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projects/website/.idea/website.iml" filepath="$PROJECT_DIR$/../projects/website/.idea/website.iml" />
     </modules>
   </component>
 </project>

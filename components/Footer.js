@@ -14,7 +14,7 @@ function Footer() {
 
 
     return (
-        <div className="flex flex-col h-auto md:h-96 bg-blue-400 w-full md:px-20 justify-evenly items-start overflow-hidden ">
+        <div className="flex flex-col h-auto md:h-96 w-full md:px-20 justify-evenly items-start overflow-hidden ">
 
             <div className="flex flex-col ml-10 md:ml-0 sm:flex-row mb-10 w-full justify-start items-start ">
                 <Link href='/'>
@@ -24,25 +24,28 @@ function Footer() {
                     </div>
                 </Link>
 
-                <div className="flex flex-col w-32 mt-10 sm:mr-10 md:mr-20">
-                    <p className="text-white font-bold text-base text-left mb-5 font-sans">About Us</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">About</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Career</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Business Contacts</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Terms</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Privacy</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Announcement</p>
+                <div className="flex justify-evenly w-auto">
+                    <div className="flex flex-col w-40 mt-10 md:mr-20">
+                        <p className="text-white font-bold text-base text-left mb-5 font-sans">About Us</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">About</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Career</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Business Contacts</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Terms</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Privacy</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Announcement</p>
+                    </div>
+
+                    <div className="flex flex-col w-40 mt-10 md:mr-20">
+                        <p className="text-white font-bold text-base text-left mb-5  font-sans">Products</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Quick Pay</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">QR Code Payments</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Program Payments</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Business Payments</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">In-App Payments</p>
+                        <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Web Payments</p>
+                    </div>
                 </div>
 
-                <div className="flex flex-col w-32 mt-10 sm:mr-10 md:mr-20">
-                    <p className="text-white font-bold text-base text-left mb-5  font-sans">Products</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Quick Pay</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">QR Code Payments</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Program Payments</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Business Payments</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">In-App Payments</p>
-                    <p className="cursor-pointer hover:text-black text-white font-base text-sm my-2  font-sans text-left">Web Payments</p>
-                </div>
 
                 <div className="flex flex-row items-center my-10 md:ml-20 ">
                     <HeaderItem icon={faLinkedin} url="https://www.linkedin.com/company/swiftpayapp" />

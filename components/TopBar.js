@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function TopBar() {
     return (
-        <div className="flex w-screen h-12 justify-between px-5 md:px-20 items-center">
+        <div className="flex w-screen h-12 justify-between px-5 md:px-20 items-center overflow-hidden">
             <Link href='/'>
                 <div className="flex cursor-pointer justify-center items-center">
                     <img src="/logo.svg" alt="GoFree Logo" className="h-6 w-6 mr-1"/>
@@ -15,10 +15,10 @@ function TopBar() {
 
             <div className="flex justify-evenly items-center">
                 <Link href='/'>
-                    <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Home</p>
+                    <p className="cursor-pointer hover:text-black text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Home</p>
                 </Link>
 
-                <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-24 text-center text-xs md:text-sm md:font-semibold">Products</p>
+                <p className="cursor-pointer hover:text-black text-white w-12 md:w-24 text-center text-xs md:text-sm md:font-semibold">Products</p>
             </div>
 
         </div>

@@ -13,6 +13,8 @@ import Landing from "../components/Landing";
 import Products from "../components/Products";
 import UseCases from "../components/UseCases";
 import Footer from "../components/Footer";
+import GateWay from "../components/GateWay";
+import Payment from "../components/Payment";
 
 
 
@@ -41,12 +43,14 @@ function Payments() {
           </Head>
 
           <div className="">
-              <img src="/bg.png" alt="african women" layout="responsive" className="h-96 md:h-screen w-screen"/>
+              <img src="/p2p.gif" alt="african women" layout="responsive" className="h-96 md:h-screen w-screen "/>
           </div>
 
           <Landing />
 
           <Mission />
+
+          <GateWay />
 
           <Products />
 

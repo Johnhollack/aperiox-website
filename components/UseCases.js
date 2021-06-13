@@ -17,45 +17,39 @@ function UseCases() {
                 <div className="w-24 h-1 bg-blue-400 rounded"></div>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full items-center md:justify-evenly md:my-10">
-                <div className="flex my-5 md:my-0 bg-gray-100 h-52 w-72 md:w-96 ">
-                    <div className="flex flex-col px-5 justify-center items-center">
+            <div className="flex flex-col md:flex-row w-full items-center justify-evenly md:my-0">
+                <div className="flex flex-col mb-10 md:mb-0 drop-shadow justify-between items-center h-60 w-72 bg-gray-100 ">
+                    <img src="/shopping.png" alt="Youtube PlayButton" className="h-40 w-full object-cover"/>
+                    <div className="flex px-5 mb-7 justify-center items-center">
                         <img src="/cart.png" alt="Youtube PlayButton" className="h-6 w-6 object-contain"/>
-                        <p className="text-white w-20 md:w-24 mt-3 font-bold text-gray-700 text-xs text-center font-sans">Shopping</p>
+                        <p className="text-white font-bold ml-5 text-gray-700 text-center font-sans">Shopping</p>
                     </div>
-                    <img src="/shopping.png" alt="Shopping" className="h-full w-52 md:w-72 object-cover"/>
                 </div>
-
-                <div className="flex my-5 md:my-0 bg-gray-100 h-52 w-72 md:w-96 ">
-                    <div className="flex flex-col px-5 justify-center items-center">
+                <div className="flex flex-col mb-10 md:mb-0 drop-shadow justify-between items-center h-60 w-72 bg-gray-100 ">
+                    <img src="/food.png" alt="Youtube PlayButton" className="h-40 w-full object-cover"/>
+                    <div className="flex px-5 mb-7 justify-center items-center">
                         <img src="/fork.png" alt="Youtube PlayButton" className="h-6 w-6 object-contain"/>
-                        <p className="text-white w-20 md:w-24 mt-3 font-bold text-gray-700 text-xs text-center font-sans">Restaurants</p>
+                        <p className="text-white font-bold ml-5 text-gray-700 text-center font-sans">Restaurants</p>
                     </div>
-                    <img src="/food.png" alt="Food" className="h-full w-52 md:w-72 object-cover"/>
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full items-center md:justify-evenly md:my-10">
-                <div className="flex mb-5 md:mb-0 bg-gray-100 h-52 w-72 md:w-96  ">
-                    <div className="flex flex-col px-5 justify-center items-center">
+            <div className="flex flex-col md:flex-row w-full items-center justify-evenly md:my-10">
+                <div className="flex flex-col mb-10 md:mb-0 drop-shadow justify-between items-center h-60 w-72 bg-gray-100 ">
+                    <img src="/medical.png" alt="Youtube PlayButton" className="h-40 w-full object-cover"/>
+                    <div className="flex px-5 mb-7 justify-center items-center">
                         <img src="/doctor.png" alt="Youtube PlayButton" className="h-6 w-6 object-contain"/>
-                        <p className="text-white w-20 md:w-24 mt-3 font-bold text-gray-700 text-xs text-center font-sans">Medical Care</p>
+                        <p className="text-white font-bold ml-5 text-gray-700 text-center font-sans">Medical Care</p>
                     </div>
-                    <img src="/medical.png" alt="Medical" className="h-full w-52 md:w-72 object-cover"/>
                 </div>
-
-                <div className="flex mb-5 md:mb-0 bg-gray-100 h-52 w-72 md:w-96  ">
-                    <div className="flex flex-col px-5 justify-center items-center">
+                <div className="flex flex-col mb-10 md:mb-0 drop-shadow justify-between items-center h-60 w-72 bg-gray-100 ">
+                    <img src="/transport.png" alt="Youtube PlayButton" className="h-40 w-full object-cover"/>
+                    <div className="flex px-5 mb-7 justify-center items-center">
                         <img src="/bus.png" alt="Youtube PlayButton" className="h-6 w-6 object-contain"/>
-                        <p className="text-white w-20 md:w-24 mt-3 font-bold text-gray-700 text-xs text-center font-sans">Transportation</p>
+                        <p className="text-white font-bold ml-5 text-gray-700 text-center font-sans">Transportation</p>
                     </div>
-                    <img src="/transport.png" alt="Transport" className="h-full w-52 md:w-72 object-cover"/>
                 </div>
             </div>
-
-
-
-
         </div>
     )
 }

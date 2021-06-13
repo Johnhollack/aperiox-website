@@ -30,15 +30,11 @@ function App() {
       <View style={styles.container}>
           <Head>
               <title>GoFree: Chat, Call & Bank for Free</title>
-              <meta name="goFree" content="Just be free" />
+              <meta name="GoFree" content="Just be free" />
               <link rel="icon" href="/logo.svg" />
           </Head>
 
-          <div className="">
-              <img src="/bg-img.png" alt="african women" className="h-screen w-screen"/>
-          </div>
-
-          <div className="flex flex-col h-screen w-screen absolute justify-evenly">
+          <div className="flex flex-col h-screen w-screen justify-evenly">
 
               <div className="flex flex-col md:flex-row h-5/6 w-screen">
                   <div className="flex flex-col h-1/2 md:h-full w-full md:w-3/5 justify-center items-center">
@@ -62,17 +58,17 @@ function App() {
                   </div>
               </div>
 
-              <div className="flex flex-col md:flex-row w-screen h-12 justify-between px-1 md:px-10 items-center border-t border-gray-300">
+              <div className="flex flex-col lg:flex-row w-screen h-12 justify-between px-3 md:px-10 items-center border-t border-gray-300">
                   <p className="text-white py-1 md:py-0 text-xs md:text-sm md:font-semibold">Copyright © 2021 GoFree. All Rights Reserved</p>
 
                   <div className="flex justify-evenly items-center">
-                      <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">About</p>
+                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">About</p>
                       <Link href='/payments'>
-                          <p className="cursor-pointer hover:text-gray-300 text-white w-14 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
+                          <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
                       </Link>
-                      <p className="cursor-pointer hover:text-gray-300 text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Help Center</p>
-                      <p className="cursor-pointer hover:text-gray-300 text-white w-12 md:w-16 text-center text-xs md:text-sm md:font-semibold">Terms</p>
-                      <p className="cursor-pointer hover:text-gray-300 text-white w-24 md:w-24 text-center text-xs md:text-sm md:font-semibold">Privacy Policy</p>
+                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Help</p>
+                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Terms</p>
+                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Privacy</p>
                       <div className="flex justify-evenly items-center">
                           <div className="flex flex-row items-center md:ml-10">
                               <HeaderItem icon={faLinkedin} url="https://www.linkedin.com/company/swiftpayapp" />
