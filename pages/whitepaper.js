@@ -55,7 +55,7 @@ function Whitepaper() {
                 <div className="ml-10 ">
                     <div className=" ">
                         <p className="font-extrabold text-3xl md:text-5xl">ApeiroX</p>
-                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Whitepaper v1.0</p>
+                        <p className="font-semibold mt-3 text-sm md:text-base text-gray-300">Whitepaper v1.1</p>
                     </div>
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
