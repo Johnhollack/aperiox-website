@@ -60,7 +60,7 @@ function Whitepaper() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'/whitepaper-v1.0.pdf'}>
+                        <Link href={'/whitepaper-v1.1.pdf'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
                                     className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
@@ -106,7 +106,7 @@ function Whitepaper() {
                             Aggregators, Verifiers & Dispatchers
                         </p>
 
-                        <Link href={'/whitepaper-v1.0.pdf'}>
+                        <Link href={'/whitepaper-v1.1.pdf'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <p className="mt-3 text-sm text-yellow-300">
                                     Learn more

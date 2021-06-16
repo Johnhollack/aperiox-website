@@ -84,13 +84,14 @@ function Tokenomics() {
                     <div className="my-10">
                         <p className="font-semibold text-sm t-3 md:text-base text-justify text-yellow-300">
                             The APX token is a BEP-20 Binance Smart Chain token. ApeiroX's
-                            decentralized services would be launched with this coin. Although we plan
+                            decentralized services would be launched with this token. Although we plan
                             to move to our own native blockchain in the near future, the technical paper
                             for the blockchain and how the migration will be made feasible will be
                             provided after it is complete. This sort of approach is critical for a variety of
                             reasons based on our business model, particularly in terms of how we aim
                             to simplify the product and pool resources to focus on mainstream
-                            acceptance, as well as adequate management and responsibility.                        </p>
+                            acceptance, as well as adequate management and responsibility.
+                        </p>
 
                         <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
                             APX tokens contribute to a democratic Blockchain ecosystem and provide the following functions to specify access to services and products:
@@ -103,7 +104,7 @@ function Tokenomics() {
                             1. To reward the community for using the application.
                         </p>
                         <p className="mt-3 text-sm text-gray-200">
-                            2. To distribute 50% of the company's profit to token holders.
+                            2. To be used for staking and provide security and governance to the network
                         </p>
                         <p className="mt-3 text-sm text-gray-200">
                             3. To reward the team and generate funds to enable the company scale and achieve its fundamental goals.
@@ -127,15 +128,15 @@ function Tokenomics() {
                         </p>
 
                         <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
-                            5% (350,000,000,000) will be airdropped within 3 months of token deployment to those who participated in the airdrop.
+                            5% (500,000,000,000) will be airdropped within 3 months of token deployment to those who participated in the airdrop.
                         </p>
 
                         <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
-                            2.5% (175,000,000,000) will be sent to bounty participants when the airdrop is being distributed.
+                            2.5% (250,000,000,000) will be mapped out for the two phases of the bounty pool.
                         </p>
 
                         <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
-                            2.5% (175,000,000,000) will be distributed evenly based on managed bounty tasks for a period of 1 year.
+                            2.5% (250,000,000,000) will be mapped out for managed bounty tasks and high-reaching marketing and intense publicity for a period of time.
                         </p>
 
                         <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
@@ -146,6 +147,48 @@ function Tokenomics() {
                             The remaining 60% (6,000,000,000,000) of the community tokens will be rationed for rewarding users for platform usage and also will be factored into liquidity provider benefits that will be well articulated in the next version of our technical paper carrying specifications for our Swap module.
                         </p>
 
+                        <p className="mt-3 text-sm text-yellow-300  md:text-base text-justify">
+                            Staking
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            To ensure the integrity, security and continuity of the network, stakers are encouraged to stake their APX tokens
+                            in the staking contract to secure the network.
+                            This will be made possible by the Proof of Stake (PoS) consensus algorithm, which requires users to stake a
+                            share (or all) of their holdings in the network’s token to secure the network and keep it running.
+                            Stakers will provide governance decisions with regards to community tokens and would also propose decisions
+                            on improvements of the ApeiroX ecosystem.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            In this regard, the remaining 60% of the total supply tokens meant for the community, when released, will be sent
+                            into a community contract and such tokens will only be released depending on consensus from stakers. Consensus will be reached for certain improvement standards and platform growth, and in some cases, may be as simple
+                            as a token burn.
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            The earliest version of this paper previously quoted that 50% of platform profits will be sent to snapshotted
+                            balances, but after careful review, it could be deemed a security, and to avoid the APX token being recognized as
+                            a security token, the staking model was introduced with the following design:
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            50% of fees collected from the platform will be collated together into a block. 80% of these collected fees will be used to purchase BNB and sent to the staking contract every 10 minutes. Stakers can withdraw their BNB from the pool anytime they wish. Stakers can decide to close their staking position at any time.
+                        </p>
+
+
+                        <p className="mt-3 text-sm text-yellow-300  md:text-base text-justify">
+                            Token Burn
+                        </p>
+
+                        <p className="mt-3 text-sm text-gray-200 md:text-base text-justify">
+                            From the 50% transaction fees collected
+                            on the platform, 20% will be used to
+                            purchase APX tokens that will be burned.
+                            This means that APX tokens will constantly be burnt multiple times every day.
+                            This will bring about a deflationary model
+                            which grows value for all APX token holders.
+                        </p>
                     </div>
 
                 </div>

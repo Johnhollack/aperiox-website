@@ -73,6 +73,7 @@ function App() {
 
 export default App;
 
+        <BodyTwo className=" "/>
 
 const styles = StyleSheet.create({
   container: {
