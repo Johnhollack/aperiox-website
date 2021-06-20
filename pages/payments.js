@@ -1,21 +1,18 @@
 // @generated: @expo/next-adapter@2.1.75
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Head from 'next/head';
-import { StyleSheet, Text, View } from 'react-native';
-import {windowWidth, windowHeight} from "../utils/Dimentions";
-import HeaderItem from "../components/HeaderItem";
-import {faApple, faLinkedin, faGooglePlay, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
-import ButtonDark from "../components/ButtonDark";
-import TopBar from "../components/TopBar";
-import Welcome from "../components/Welcome";
+import { StyleSheet } from 'react-native';
 import Mission from "../components/Mission";
 import Landing from "../components/Landing";
 import Products from "../components/Products";
 import UseCases from "../components/UseCases";
 import Footer from "../components/Footer";
 import GateWay from "../components/GateWay";
-import Payment from "../components/Payment";
-
+import Product from "../components/Product";
+import Features from "../components/Features";
+import Team from "../components/Team";
+import Feature from "../components/Feature";
+import Partners from "../components/Partners";
 
 
 function Payments() {
@@ -48,19 +45,19 @@ function Payments() {
 
           <Landing />
 
-          <Mission />
-
-          <GateWay />
+          <Product />
 
           <Products />
 
           <UseCases />
 
+          <Feature />
+
+          <Features />
+
+          <Team />
+
           <Footer />
-
-
-
-
 
       </div>
   );

@@ -7,3 +7,9 @@
         @apply bg-[#2f95dc] text-white overflow-hidden;
     }
 }
+
+@layer utilities {
+    button {
+        @apply bg-[#ffffff] text-gray-900 overflow-hidden;
+    }
+}

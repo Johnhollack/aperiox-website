@@ -7,6 +7,8 @@ import HeaderItem from "../components/HeaderItem";
 import {faApple, faLinkedin, faGooglePlay, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import ButtonDark from "../components/ButtonDark";
 import Link from "next/link";
+import BodyZero from "../components/BodyZero";
+import BodyNavBar from "../components/BodyNavBar";
 
 
 
@@ -36,49 +38,11 @@ function App() {
 
           <div className="flex flex-col h-screen w-screen justify-evenly">
 
-              <div className="flex flex-col md:flex-row h-5/6 w-screen">
-                  <div className="flex flex-col h-1/2 md:h-full w-full md:w-3/5 justify-center items-center">
-                      <div className="flex flex-col justify-center items-center">
-                          <div className="">
-                              <img src="/logo.svg" alt="GoFree Logo" className="h-10 w-10"/>
-                          </div>
-                          <div className="px-10 py-10">
-                              <p className="text-white font-base text-lg md:text-3xl text-center font-sans">Connecting a billion Africans with </p>
-                              <p className="text-white font-base text-lg md:text-3xl text-center font-sans">calls, chats, banking and more</p>
-                          </div>
-                      </div>
-                      <div className="md:mt-10 flex justify-center">
-                          <ButtonDark subtitle="COMING SOON" title="Google PlayStore" icon={faGooglePlay} />
-                          <ButtonDark subtitle="COMING SOON" title="App Store" icon={faApple} />
-                      </div>
-                  </div>
+              <BodyZero />
 
-                  <div className="flex h-1/2 md:h-auto w-full md:w-2/5 justify-center items-center">
-                      <img src="/phone.png" alt="Phone Demo" className=" h-full w-4/6 object-contain"/>
-                  </div>
-              </div>
+              <BodyNavBar />
 
-              <div className="flex flex-col lg:flex-row w-screen h-12 justify-between px-3 md:px-10 items-center border-t border-gray-300">
-                  <p className="text-white py-1 md:py-0 text-xs md:text-sm md:font-semibold">Copyright © 2021 GoFree. All Rights Reserved</p>
 
-                  <div className="flex justify-evenly items-center">
-                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">About</p>
-                      <Link href='/payments'>
-                          <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
-                      </Link>
-                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Help</p>
-                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Terms</p>
-                      <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Privacy</p>
-                      <div className="flex justify-evenly items-center">
-                          <div className="flex flex-row items-center md:ml-10">
-                              <HeaderItem icon={faLinkedin} url="https://www.linkedin.com/company/swiftpayapp" />
-                              <HeaderItem icon={faTwitter} url="https://twitter.com/gofreeHQ" />
-                              <HeaderItem icon={faInstagram} url="https://instagram.com/gofreeHQ" />
-                          </div>
-                      </div>
-                  </div>
-
-              </div>
 
           </div>
 
