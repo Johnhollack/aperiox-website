@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {StyleSheet, View, TouchableOpacity, TextInput} from "react-native";
 import ButtonYellow from "./ButtonYellow";
 import ButtonDark from "./ButtonDark";
-import {faApple, faGooglePlay, faTelegram} from "@fortawesome/free-brands-svg-icons";
+import {faApple, faGooglePlay, faTelegram, faMoney} from "@fortawesome/free-brands-svg-icons";
 import {useRouter} from "next/router";
 import Link from "next/link";
 import axios from 'axios';
@@ -87,11 +87,21 @@ function BodyZero() {
                                 </a>
                             </Link>
                         </div>
-                        <button
-                            onClick={() => router.push(`/exchanges`)}
-                            className="bg-gray-700 h-10 text-sm rounded font-semibold w-24 hover:bg-gray-400 ">
-                            Buy Now
-                        </button>
+                        <div className="flex mb-2 sm:mb-0">
+                            <button
+                                onClick={() => router.push(`/exchanges`)}
+                                className="bg-gray-800 h-10 text-sm rounded font-semibold w-24 hover:bg-gray-400 ">
+                                Buy Now
+                            </button>
+                            <Link href={'https://privatesales.apeirox.com/'}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <button
+                                        className="bg-gray-400 h-10 text-black text-sm rounded font-semibold w-24 mx-3 hover:bg-gray-400 ">
+                                        Private Sale
+                                    </button>
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
