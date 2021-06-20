@@ -63,15 +63,6 @@ function Exchange() {
 
                     <div className="flex h-auto my-5 md:mt-10 w-3/4">
 
-                        <Link href={'https://bscscan.com/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
-                            <a target="_blank" rel="noopener noreferrer">
-                                <button
-                                    className="bg-gray-500 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
-                                    Bsc Scan
-                                </button>
-                            </a>
-                        </Link>
-
                         <Link href={'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
                             <a target="_blank" rel="noopener noreferrer">
                                 <button
@@ -81,6 +72,23 @@ function Exchange() {
                             </a>
                         </Link>
 
+                        <Link href={'https://privatesales.apeirox.com/'}>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button
+                                    className="bg-gray-900 h-10 text-sm rounded font-semibold w-24 mx-3 hover:bg-gray-700 ">
+                                    Private Sale
+                                </button>
+                            </a>
+                        </Link>
+
+                        <Link href={'https://bscscan.com/token/0x989d5fbbbf11f0bccd774cb364eb0349e7b1a56f'}>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button
+                                    className="bg-gray-700 h-10 text-sm rounded font-semibold w-28 mr-5 hover:bg-gray-400 ">
+                                    Bsc Scan
+                                </button>
+                            </a>
+                        </Link>
                     </div>
 
                     <div className="my-10">
