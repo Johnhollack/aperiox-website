@@ -13,6 +13,7 @@ import Features from "../components/Features";
 import Team from "../components/Team";
 import Feature from "../components/Feature";
 import Partners from "../components/Partners";
+import Services from "../components/Services";
 
 
 function Payments() {
@@ -53,7 +54,7 @@ function Payments() {
 
           <Feature />
 
-          <Features />
+          <Services />
 
           <Team />
 
