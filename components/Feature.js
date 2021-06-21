@@ -14,7 +14,7 @@ function Feature() {
     return (
         <div className="flex flex-col justify-center items-center w-screen h-auto bg-white overflow-hidden">
             <div className="flex justify-center align-center w-full h-12 my-10 ">
-                <p className="text-black font-semibold text-base md:text-2xl text-center font-sans">Featured & Powered By</p>
+                <p className="text-black font-semibold text-base md:text-2xl text-center font-sans">As seen on</p>
             </div>
 
             <div className="flex flex-col lg:flex-row w-full justify-evenly items-center mb-10 lg:mb-10 lg:py-10">

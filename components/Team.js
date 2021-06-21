@@ -20,8 +20,8 @@ function Team() {
 
             <div className="flex flex-row lg:flex-col w-screen justify-evenly items-center mb-10 lg:mb-0">
                 <div className="flex flex-col lg:flex-row lg:mb-10 justify-between px-20 w-1/2 lg:w-screen">
-                    <TeamProfile imgUrl="/picture.png" name="Lekan Adejumo" position="Founder & CEO" url="https://www.linkedin.com/in/lekan-adejumo-007"/>
-                    <TeamProfile imgUrl="/picture.png" name="Sweet Odigie" position="Content Director" url="/"/>
+                    <TeamProfile imgUrl="/picture.png" name="Unveiling Soon" position="Founder & CEO" url="https://www.linkedin.com/in/lekan-adejumo-007"/>
+                    <TeamProfile imgUrl="/picture.png" name="Unveiling Soon" position="Content Director" url="/"/>
                     <TeamProfile imgUrl="picture.png" name="Unveiling Soon" position="Full Stack Engineer" url="/"/>
                     <TeamProfile imgUrl="picture.png" name="Unveiling Soon" position="Lead Frontend Engineer" url="/"/>
                     <TeamProfile imgUrl="/picture.png" name="Unveiling Soon" position="Backend Engineer" url="/"/>

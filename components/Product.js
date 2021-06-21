@@ -153,10 +153,9 @@ function Product() {
             <div className="flex w-full lg:w-1/2 h-96 lg:my-10 mb-10 ">
                 <img
                     layout="responsive"
-                    className=" h-full w-full object-cover md:object-contain"
+                    className=" h-full w-full object-contain"
                     //style={{width: 600, height: 400}}
                     src="/gateway.gif"
-
                 />
             </div>
 
