@@ -1,36 +1,17 @@
 // @generated: @expo/next-adapter@2.1.75
 import React from 'react';
 import Head from 'next/head';
-import { StyleSheet } from 'react-native';
-import Mission from "../components/Mission";
 import Landing from "../components/Landing";
 import Products from "../components/Products";
 import UseCases from "../components/UseCases";
 import Footer from "../components/Footer";
-import GateWay from "../components/GateWay";
 import Product from "../components/Product";
-import Features from "../components/Features";
 import Team from "../components/Team";
 import Feature from "../components/Feature";
-import Partners from "../components/Partners";
 import Services from "../components/Services";
 
 
 function Payments() {
-
-    //const [isMobile, setIsMobile] = useState(null);
-
-    {/*
-        useEffect(() => {
-            if (windowWidth < 500) {
-                setIsMobile(true)
-            } else {
-                setIsMobile(false)
-            }
-        }, [windowWidth]);
-    */}
-
-    //console.log(windowWidth);
 
   return (
       <div className="flex flex-col overflow-hidden w-screen">
@@ -65,16 +46,3 @@ function Payments() {
 }
 
 export default Payments;
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    //backgroundColor: 'whitesmoke',
-  },
-  text: {
-    fontSize: 16,
-  },
-});
