@@ -11,6 +11,7 @@ import Listings from "../components/Listings";
 import RoadMap from "../components/RoadMap";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+import Feature from "../components/Feature";
 
 
 
@@ -59,7 +60,7 @@ function App() {
 
         <BodyTwo className=" "/>
 
-        <Listings />
+        <Feature />
 
         <RoadMap />
 
