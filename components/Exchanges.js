@@ -14,10 +14,10 @@ function Feature() {
         <div className="flex flex-col justify-center items-center w-screen h-auto bg-white overflow-hidden">
 
             <div className="flex flex-col lg:flex-row w-full justify-evenly items-center py-10">
-                <FeatureItem imgUrl="/yahoo.png" name="BBC News" url="/"/>
-                <FeatureItem imgUrl="/bbc.png" name="BBC News" url="/"/>
-                <FeatureItem imgUrl="/techcrunch.png" name="Tech Crunch"  url="/"/>
-                <FeatureItem imgUrl="tech-point.png" name="TechPoint Africa" url="/"/>
+                <FeatureItem imgUrl="/bsc.png" name="bsc" url="/"/>
+                <FeatureItem imgUrl="certik.png" name="certik" url="/"/>
+                <FeatureItem imgUrl="trust-wallet.svg" name="trust-wallet" url="/"/>
+                <FeatureItem imgUrl="metamask.png" name="metamask" url="/"/>
             </div>
 
         </div>

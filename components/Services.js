@@ -79,7 +79,7 @@ function Services() {
 
     return (
         <View style={{}}>
-            <div className="flex flex-col lg:flex-row justify-center items-center h-auto w-screen overflow-hidden px-5 lg:px-20 ">
+            <div className="flex flex-col lg:flex-row bg-white justify-center items-center h-auto w-screen overflow-hidden px-5 lg:px-20 ">
 
                 <div className="w-full lg:w-1/2 h-1/2 lg:h-5/6 my-10" >
 

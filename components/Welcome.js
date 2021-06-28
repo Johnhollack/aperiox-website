@@ -14,11 +14,11 @@ function Welcome() {
 
 
     return (
-        <div className="flex flex-col md:flex-row h-5/6 w-full justify-end items-start md:justify-start md:items-end ">
-            <div className="flex flex-col px-5 md:px-20 py-10">
-                <p className="text-white font-base text-xl md:text-5xl text-center font-sans">Welcome to GoFree Payments</p>
-                <div className="flex items-center mt-3">
-                    <p className="text-white font-base text-base md:text-2xl text-center font-sans">Watch to learn more</p>
+        <div className="flex flex-col-reverse lg:flex-row h-5/6 w-screen py-10">
+            <div className="flex flex-col h-1/2 lg:h-full w-full lg:w-1/2 justify-center items-center lg:px-20 px-5">
+                <p className="text-white font-semibold text-3xl md:text-6xl text-start rounded-md font-sans">The next-gen app for your money</p>
+                <div className="flex items-center mt-5 w-full h-auto">
+                    <p className="text-white font-base text-base md:text-2xl text-start rounded-md font-sans">Watch to learn more</p>
                     <Link href="https://instagram.com/gofreeHQ">
                         <a
                             target="_blank" rel="noopener noreferrer">
@@ -27,6 +27,10 @@ function Welcome() {
                     </Link>
 
                 </div>
+            </div>
+
+            <div className="flex h-1/2 pt-10 lg:pt-10 lg:h-auto w-full lg:w-1/2 justify-center items-center">
+                <img src="/handphone.png" alt="p2p" layout="responsive" className="h-full w-full object-contain"/>
             </div>
         </div>
     )

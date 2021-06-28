@@ -11,7 +11,7 @@ function FeatureItem({ imgUrl, name, url} ) {
                 <Link href={url}>
                     <a target="_blank" rel="noopener noreferrer">
                         <img
-                            className="h-16 w-32 object-contain"
+                            className="h-24 w-32 object-contain"
                             src={imgUrl}
                             alt={name}
                         />

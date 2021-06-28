@@ -29,7 +29,7 @@ function Footer() {
                         <Link href={'https://t.me/gofreeHQ'}>
                             <a
                                 target="_blank" rel="noopener noreferrer">
-                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Community</p>
+                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Case studies</p>
                             </a>
                         </Link>
                         <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Contact Us</p>
@@ -50,9 +50,7 @@ function Footer() {
                         <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Wallets</p>
                         <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">E-Commerce</p>
                         <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Exchange</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">DeFi</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">P2P</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">GFC</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">mobilePOS</p>
                     </div>
                 </div>
 

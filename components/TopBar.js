@@ -12,14 +12,13 @@ function TopBar() {
                 </div>
             </Link>
 
-            <div className="flex justify-between md:justify-evenly items-center w-5/6 lg:w-1/2">
+            <div className="flex justify-between md:justify-evenly items-center w-2/3 lg:w-1/2">
                 <Link href='/'>
                     <p className="cursor-pointer hover:text-black text-white  text-center text-xs md:text-base md:font-semibold">Home</p>
                 </Link>
 
                 <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Features</p>
-                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Team</p>
-                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Tokenomics</p>
+                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">About</p>
                 <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Whitepaper</p>
             </div>
 

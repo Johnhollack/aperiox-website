@@ -2,11 +2,6 @@
 import React, {useEffect, useState} from 'react';
 import Head from 'next/head';
 import { StyleSheet, Text, View } from 'react-native';
-import {windowWidth, windowHeight} from "../utils/Dimentions";
-import HeaderItem from "../components/HeaderItem";
-import {faApple, faLinkedin, faGooglePlay, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
-import ButtonDark from "../components/ButtonDark";
-import Link from "next/link";
 import BodyZero from "../components/BodyZero";
 import BodyNavBar from "../components/BodyNavBar";
 

@@ -1,208 +1,62 @@
-import React, {useState} from 'react'
-import {StyleSheet} from "react-native";
-import {useRouter} from "next/router";
-import ButtonBlue from "./ButtonBlue";
+/* This example requires Tailwind CSS v2.0+ */
+import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
+const features = [
+    {
+        name: 'Competitive exchange rates',
+        description:
+            'Easy access to global transactions at the tip of your finger, exchange your local currency for international currencies.',
+        icon: GlobeAltIcon,
+    },
+    {
+        name: 'No hidden fees',
+        description:
+            'All in-app transfers and payments are free with zero charges, helping you save more for future expenses.',
+        icon: ScaleIcon,
+    },
+    {
+        name: 'Transfers are instant',
+        description:
+            'From anywhere to any region across africa, instant transfers and payments with instant remittances, no more waiting.',
+        icon: LightningBoltIcon,
+    },
+    {
+        name: 'Mobile notifications',
+        description:
+            'Always be in the know of your transactions with our mobile notifications at the comfort 24/7.',
+        icon: AnnotationIcon,
+    },
+]
 
-function Features() {
-    const router =useRouter();
-    // const [modalVisible, setModalVisible] = useState(false);
-    const [p2p, setP2p] = useState( "cursor-pointer w-32 lg:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 bg-blue-400 focus:bg-blue-400 rounded-full");
-
-    const [peer, setPeer] = useState( "");
-    const [buyCrypto, setBuyCrypto] = useState( "h-0 opacity-0 m-0");
-    const [deposit, setDeposit] = useState( "h-0 opacity-0 m-0");
-
-    const [titlePeer, setTitlePeer] = useState( "mt-10 mb-5 text-lg lg:text-2xl font-semibold text-white");
-    const [subTitlePeer, setSubTitlePeer] = useState( "mb-10 text-xs lg:text-sm text-white lg:w-4/5");
-
-    const [titleBuy, setTitleBuy] = useState( "my-0 text-lg lg:text-2xl font-semibold text-white");
-    const [subTitleBuy, setSubTitleBuy] = useState( "mb-0 text-xs lg:text-sm text-white lg:w-4/5");
-
-    const [titleDeposit, setTitleDeposit] = useState( "my-0 text-lg lg:text-2xl font-semibold text-white");
-    const [subTitleDeposit, setSubTitleDeposit] = useState( "mb-0 text-xs lg:text-sm text-white lg:w-4/5");
-
-
-    const onPressPeer = () => {
-        setPeer("opacity-100 h-auto my-0 lg:my-5 flex flex-col justify-start ");
-        setBuyCrypto("opacity-0 h-0");
-        setDeposit("opacity-0 h-0");
-        setTitlePeer("my-5 text-lg lg:text-2xl font-semibold text-white");
-        setSubTitlePeer("mb-10 text-sm lg:w-4/5 text-white");
-        setTitleBuy("my-0 text-2xl font-semibold text-white");
-        setSubTitleBuy("mb-0 text-sm text-white");
-        setTitleDeposit("my-0 text-2xl font-semibold text-white");
-        setSubTitleDeposit("mb-0 text-sm text-white");
-        setP2p("cursor-pointer w-32 lg:w-40  h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-blue-400 rounded-full");
-    };
-
-    const onPressBuy = () => {
-        setBuyCrypto("opacity-100 h-auto my-0 lg:my-5 flex flex-col justify-start ");
-        setPeer("opacity-0 h-0 m-0");
-        setDeposit("opacity-0 h-0 m-0");
-        setTitleBuy("my-5 text-lg lg:text-2xl font-semibold text-white");
-        setSubTitleBuy("mb-10 text-sm lg:w-4/5 text-white");
-        setTitlePeer("my-0 text-2xl font-semibold text-white");
-        setSubTitlePeer("mb-0 text-sm text-white");
-        setTitleDeposit("my-0 text-2xl font-semibold text-white");
-        setSubTitleDeposit("mb-0 text-sm text-white");
-        setP2p("cursor-pointer w-32 lg:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-blue-400 rounded-full");
-    };
-
-    const onPressDeposit = () => {
-        setDeposit("opacity-100 h-auto my-0 lg:my-5 flex flex-col justify-start ");
-        setBuyCrypto("opacity-0 h-0 m-0");
-        setPeer("opacity-0 h-0 m-0");
-        setTitleDeposit("my-5 text-lg lg:text-2xl font-semibold text-white");
-        setSubTitleDeposit("mb-10 text-sm lg:w-4/5 text-white");
-        setTitlePeer("my-0 text-2xl font-semibold text-white");
-        setSubTitlePeer("mb-0 text-sm text-white");
-        setTitleBuy("my-0 text-2xl font-semibold text-white");
-        setSubTitleBuy("mb-0 text-sm text-white");
-        setP2p("cursor-pointer w-32 lg:w-40 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-blue-400 rounded-full");
-    };
-
-
-
+export default function Features() {
     return (
-        <div name="about" id="about"
-             className="flex flex-col lg:flex-row bg-black justify-center items-center h-auto w-screen overflow-hidden px-5 lg:px-20 "
-        >
-
-            <div className="w-full lg:w-1/2 h-1/2 lg:h-5/6 my-10" >
-
-                <div className="flex flex-row mt-5">
-
-                    <div className="flex flex-col sm:flex-row">
-                        <div className="">
-                            <button
-                                onClick={onPressPeer}
-                                className={p2p}
-                            >
-                                <p className="font-semibold text-xs lg:text-sm text-gray-900">Artificial Intelligence</p>
-                            </button>
-                        </div>
-
-                        <div className="mt-3 sm:mt-0">
-                            <button
-                                onClick={onPressBuy}
-                                className="cursor-pointer w-24 lg:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-blue-400 rounded-full"
-                            >
-                                <p className="font-semibold text-xs lg:text-sm text-gray-900">Moments</p>
-                            </button>
-                        </div>
-                    </div>
-                    <div className="flex flex-col sm:flex-row">
-                        <div className="">
-                            <button
-                                onClick={onPressDeposit}
-                                className="cursor-pointer w-24 lg:w-28 h-10 mr-3 justify-center items-center transition duration-100 hover:bg-gray-300 focus:bg-blue-400 rounded-full"
-                            >
-                                <p className="font-semibold text-xs lg:text-sm text-gray-900">E-Commerce</p>
-                            </button>
-                        </div >
-                    </div>
-                </div>
-
-                <div className={peer}>
-                    <p className={titlePeer}>Bringing AI into Communication</p>
-                    <p className={subTitlePeer}>
-                        GoFree’s AI allows you to use your voice to take action.
-                        Search for exchange partners, surf your contact and manage your
-                        wallet without touching the device...
+        <div className="py-10 lg:py-32 bg-white">
+            <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-20">
+                <div className="lg:text-center">
+                    <p className="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
+                        A better way to send money
                     </p>
-
-                    <ButtonBlue title="Get Started" onClick={() => router.push(`/exchanges`)}/>
-                </div>
-
-                <div className={buyCrypto}>
-                    <p className={titleBuy}>Making your Identity Mobile as you are</p>
-                    <p className={subTitleBuy}>
-                        Your identity should not be restricted to your hard copy ID cards,
-                        it should be on the go just as you are, no restriction, no limitation...
+                    <p className="mt-4 max-w-2xl text-base text-gray-500 lg:mx-auto">
+                        Start sending money to your loved ones with peace of mind even to the hardest to reach regions across Africa.
                     </p>
-
-                    <ButtonBlue title="Get Started" onClick={() => router.push(`/exchanges`)}/>
                 </div>
 
-                <div className={deposit}>
-                    <p className={titleDeposit}>Secured with Bank grade encryption</p>
-                    <p className={subTitleDeposit}>
-                        Use biometric authentication as a quick and secure way
-                        to regain access to your accounts if you lost or forget your password....
-                    </p>
-
-                    <ButtonBlue title="Get Started" onClick={() => router.push(`/exchanges`)} />
+                <div className="mt-10">
+                    <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                        {features.map((feature) => (
+                            <div key={feature.name} className="relative">
+                                <dt>
+                                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                        <feature.icon className="h-6 w-6" aria-hidden="true" />
+                                    </div>
+                                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
+                                </dt>
+                                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                            </div>
+                        ))}
+                    </dl>
                 </div>
-
             </div>
-
-            <div className="flex w-full lg:w-1/2 h-96 lg:my-10 mb-10 ">
-                <img
-                    layout="responsive"
-                    className="h-full w-full object-cover md:object-contain lg:object-cover"
-                    //style={{width: 600, height: 400}}
-                    src="/phoneai.gif"
-                />
-            </div>
-
-
-
         </div>
     )
 }
-
-export default Features;
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "white",
-    },
-    topContainer: {
-        marginTop: 50,
-    },
-    navigationContainer: {
-        marginTop: 20,
-        flexDirection: 'row',
-
-    },
-    buttonContainer1: {
-        marginRight: 20,
-        width: 200,
-        height: 40,
-        backgroundColor: "#fcb316",
-        borderRadius: 50,
-        justifyContent: "center",
-        alignItems: "center",
-    },
-    buttonContainer2: {
-        marginRight: 20,
-        width: 120,
-        height: 40,
-        backgroundColor: "transparent",
-        borderRadius: 50,
-        justifyContent: "center",
-        alignItems: "center",
-    },
-    textTitle: {
-        fontSize: 32,
-        fontWeight: 600,
-        color: '#000A17',
-        lineHeight: 50,
-    },
-    textContainer: {
-        flexDirection: 'column',
-        marginLeft: 5,
-    },
-    text0: {
-        fontSize: 10,
-        fontWeight: 400,
-        color: 'white'
-    },
-    text1: {
-        fontSize: 12,
-        fontWeight: 600,
-        color: 'white'
-    },
-});

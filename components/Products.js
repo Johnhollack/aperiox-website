@@ -13,9 +13,10 @@ function Products() {
 
     return (
         <View style={{}}>
-            <div className="flex flex-col h-auto w-full px-20 justify-start items-center overflow-hidden ">
-                <div className="flex flex-col my-10 w-full justify-center items-center">
-                    <p className="text-white font-semibold text-base md:text-2xl text-center font-sans">Payment Products</p>
+            <div className="flex flex-col h-auto w-full px-20 justify-start items-center overflow-hidden py-10 md:py-20">
+                <div className="flex flex-col w-full justify-center items-center">
+                    <p className="text-white font-semibold text-2xl md:text-3xl text-center font-sans ">Payment products</p>
+                    <div className="w-24 bg-white h-1 rounded-full mt-1 mb-5"></div>
                 </div>
 
                 <div className="flex flex-col md:flex-row lg:flex-col justify-evenly w-full">
@@ -31,14 +32,14 @@ function Products() {
                             <img src="/qrcode-pay.png" alt="Youtube PlayButton" className="h-40 w-52 object-contain"/>
                             <p className="text-white font-semibold text-gray-900 text-lg text-center font-sans">QR Code Payment</p>
                             <p className="text-white px-5 mb-5 text-gray-700 text-sm text-center font-sans">
-                                Users present their GoFree Payment code to the merchant. Merchants scan the code to take the payment
+                                Users open GoFree to scan the code, confirm the amount, and make the payment after passing the security checks.
                             </p>
                         </div>
                         <div className="flex flex-col mb-5 lg:mb-0 drop-shadow justify-evenly items-center h-96 w-72 bg-white ">
                             <img src="/program-pay.png" alt="Youtube PlayButton" className="h-40 w-52 object-contain"/>
                             <p className="text-white font-semibold text-gray-900 text-lg text-center font-sans">Program Payment</p>
                             <p className="text-white px-5 mb-5 text-gray-700 text-sm text-center font-sans">
-                                Users present their GoFree Payment code to the merchant. Merchants scan the code to take the payment
+                                Users pay for goods or services in Mini Programs created inside GoFree.
                             </p>
                         </div>
                     </div>

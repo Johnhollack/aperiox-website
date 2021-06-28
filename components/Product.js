@@ -92,7 +92,7 @@ function Product() {
                                 onClick={onPressNational}
                                 className={p2p}
                             >
-                                <p className={NiText}>Mission Statement</p>
+                                <p className={NiText}>Across Africa</p>
                             </button>
                         </div>
 
