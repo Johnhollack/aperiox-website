@@ -25,7 +25,8 @@
     "react-dom": "^17.0.1",
     "react-native": "^0.64.1",
     "react-native-web": "^0.16.3",
-    "tailwind-scrollbar-hide": "^1.0.3"
+    "tailwind-scrollbar-hide": "^1.0.3",
+    "tar": "^6.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
