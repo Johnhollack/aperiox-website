@@ -24,8 +24,6 @@ function App() {
 
             <BodyNavBar />
 
-
-
           </div>
 
       </View>

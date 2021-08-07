@@ -14,11 +14,13 @@ function BodyNavBar() {
     };
 
     return (
-        <div className="flex flex-col lg:flex-row w-screen h-12 justify-between px-3 md:px-10 items-center border-t border-gray-300">
-            <p className="text-white py-1 md:py-0 text-xs md:text-sm md:font-semibold">Copyright © 2021 GoFree. All Rights Reserved</p>
+        <div className="flex flex-col-reverse lg:flex-row w-screen h-12 justify-between px-3 md:px-10 items-center border-t border-gray-300">
+            <p className="text-white text-xs md:text-sm md:font-semibold">Copyright © 2021 GoFree. All Rights Reserved</p>
 
-            <div className="flex justify-evenly items-center">
-                <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">About</p>
+            <div className="flex justify-evenly items-center py-1 md:py-0">
+                <Link href='/about'>
+                    <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">About</p>
+                </Link>
                 <Link href='/payments'>
                     <p className="cursor-pointer hover:text-black text-white w-16 md:w-24 text-center text-xs md:text-sm md:font-semibold">Payments</p>
                 </Link>

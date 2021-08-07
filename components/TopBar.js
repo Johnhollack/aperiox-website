@@ -16,10 +16,16 @@ function TopBar() {
                 <Link href='/'>
                     <p className="cursor-pointer hover:text-black text-white  text-center text-xs md:text-base md:font-semibold">Home</p>
                 </Link>
-
-                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Features</p>
-                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">About</p>
-                <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Whitepaper</p>
+                <Link href='/payments'>
+                    <p className="cursor-pointer hover:text-gray-700 text-black text-center text-xs md:text-base md:font-semibold">Payments</p>
+                </Link>
+                <Link href='/about'>
+                    <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">About</p>
+                </Link>
+                <Link href='/whitepaper'>
+                    <p className="cursor-pointer hover:text-black text-white text-center text-xs md:text-base md:font-semibold">Whitepaper</p>
+                </Link>
+                
             </div>
 
         </div>

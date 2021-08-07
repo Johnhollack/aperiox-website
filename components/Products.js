@@ -21,7 +21,7 @@ function Products() {
 
                 <div className="flex flex-col md:flex-row lg:flex-col justify-evenly w-full">
                     <div className="flex flex-col lg:flex-row w-full items-center justify-evenly my-5 md:my-10">
-                        <div className="shadow-md flex flex-col mb-5 lg:mb-0 drop-shadow justify-evenly items-center h-96 w-72 bg-white ">
+                        <div className="shadow-md flex flex-col mb-5 lg:mb-0 drop-shadow justify-evenly items-center h-96 w-72 bg-white">
                             <img src="/quick-pay.png" alt="Youtube PlayButton" className="h-40 w-52 object-contain"/>
                             <p className="text-white font-semibold text-gray-900 text-lg text-center font-sans">Quick Pay</p>
                             <p className="text-white px-5 mb-5 text-gray-700 text-sm text-center font-sans">
@@ -61,7 +61,7 @@ function Products() {
                         </div>
                         <div className="shadow-md flex flex-col mb-5 lg:mb-0 drop-shadow justify-evenly items-center h-96 w-72 bg-white ">
                             <img src="/web-pay.png" alt="Youtube PlayButton" className="h-40 w-52 object-contain"/>
-                            <p className="text-white font-semibold text-gray-900 text-lg text-center font-sans">Quick Pay</p>
+                            <p className="text-white font-semibold text-gray-900 text-lg text-center font-sans">Web Pay</p>
                             <p className="text-white px-5 mb-5 text-gray-700 text-sm text-center font-sans">
                                 Users use GoFree's "Scan" feature to scan a payment code on a web page to make payment.
                             </p>

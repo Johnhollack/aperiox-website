@@ -56,7 +56,7 @@ function BodyZero() {
                             />
                             <button
                                 type="submit"
-                                className="ml-3 w-56 h-10 justify-center py-2 px-2 border border-transparent shadow-sm text-xs font-medium rounded-md text-white bg-transparent border-lg border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:bg-gray-900"
+                                className="ml-3 w-56 h-10 justify-center py-2 px-2 border border-transparent shadow-sm text-xs font-bold rounded-md text-white bg-transparent border-lg border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:bg-gray-900"
                                 >
                                 GET EARLY ACCCES
                             </button>
@@ -70,7 +70,7 @@ function BodyZero() {
                 </div>
             </div>
 
-            <div className="flex h-1/2 md:h-auto w-full md:w-2/5 justify-center items-center">
+            <div className="flex h-1/2 md:h-auto w-full md:w-2/5 justify-center items-center ">
                 <img src="/phone.png" alt="Phone Demo" className=" h-full w-4/6 object-contain"/>
             </div>
         </div>
