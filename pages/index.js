@@ -9,19 +9,6 @@ import BodyNavBar from "../components/BodyNavBar";
 
 function App() {
 
-    //const [isMobile, setIsMobile] = useState(null);
-
-    {/*
-        useEffect(() => {
-            if (windowWidth < 500) {
-                setIsMobile(true)
-            } else {
-                setIsMobile(false)
-            }
-        }, [windowWidth]);
-    */}
-
-    //console.log(windowWidth);
 
   return (
       <View style={styles.container}>
@@ -33,9 +20,9 @@ function App() {
 
           <div className="flex flex-col h-screen w-screen justify-evenly">
 
-              <BodyZero />
+            <BodyZero />
 
-              <BodyNavBar />
+            <BodyNavBar />
 
 
 

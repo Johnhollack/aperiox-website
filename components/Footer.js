@@ -19,38 +19,38 @@ function Footer() {
                 <div className="flex w-full lg:w-1/2 justify-between">
                     <div className="flex flex-col my-10 ">
                         <p className="mb-5 text-sm font-bold ">About Us</p>
-                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">About</p>
+                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">About</p>
                         <Link href={'/'}>
                             <a
                                 target="_blank" rel="noopener noreferrer">
-                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Career</p>
+                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Career</p>
                             </a>
                         </Link>
                         <Link href={'https://t.me/gofreeHQ'}>
                             <a
                                 target="_blank" rel="noopener noreferrer">
-                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Case studies</p>
+                                <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Case studies</p>
                             </a>
                         </Link>
-                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Contact Us</p>
-                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Terms</p>
-                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Privacy</p>
+                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Contact Us</p>
+                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Terms</p>
+                        <p onClick={() => router.push(`/`)} className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Privacy</p>
                     </div>
                     <div className="flex flex-col my-10 ">
                         <p className="mb-5 text-sm font-bold ">Payments</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Quick Pay</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">QR Code Payments</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Program Payments</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Business Payments</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">In-App Payments</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Web Payments</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Quick Pay</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">QR Code Payments</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Program Payments</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Business Payments</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">In-App Payments</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Web Payments</p>
                     </div>
                     <div className="flex flex-col my-10 ">
                         <p className="mb-5 text-sm font-bold ">Products</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Wallets</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">E-Commerce</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">Exchange</p>
-                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-200">mobilePOS</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Wallets</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">E-Commerce</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">Exchange</p>
+                        <p className="mb-2 text-sm cursor-pointer hover:text-black text-gray-100">mobilePOS</p>
                     </div>
                 </div>
 
@@ -67,14 +67,14 @@ function Footer() {
                     </div>
                     <Link href='/'>
                         <div className="flex cursor-pointer w-32 justify-center items-center">
-                            <img src="/logo.svg" alt="GoFree Logo" className="h-8 w-8 lg:h-12 lg:w-12 lg:mt-5 object-cover"/>
+                            <img src="/logo.svg" alt="GoFree Logo" className="h-8 w-8 lg:h-10 lg:w-10 lg:mt-5 object-cover"/>
                         </div>
                     </Link>
                 </div>
             </div>
 
             <div className="flex w-full  ">
-                <p className="my-10 text-xs text-gray-200">Copyright @ 2021 GoFree Inc. |  All Rights Reserved.</p>
+                <p className="my-10 text-xs text-gray-100">Copyright @ 2021 GoFree Inc. |  All Rights Reserved.</p>
             </div>
 
         </div>

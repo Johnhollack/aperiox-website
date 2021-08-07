@@ -1,4 +1,3 @@
-// @generated: @expo/next-adapter@2.1.75
 import React from 'react';
 import Head from 'next/head';
 import Landing from "../components/Landing";
@@ -6,11 +5,18 @@ import Products from "../components/Products";
 import UseCases from "../components/UseCases";
 import Footer from "../components/Footer";
 import Product from "../components/Product";
-import Team from "../components/Team";
 import Feature from "../components/Feature";
-import Services from "../components/Services";
 import Features from "../components/Features";
-import Exchanges from "../components/Exchanges";
+import CashTransfer from "../components/CashTransfer";
+import CryptoTransfer from "../components/CryptoTransfer";
+import CollectPayments from "../components/CollectPayments";
+import SupportLovedOnes from "../components/SupportLovedOnes";
+import AISupport from "../components/AISupport";
+import CashText from "../components/CashText";
+import CryptoText from "../components/CryptoText";
+import CollectText from "../components/CollectText";
+import SupportText from "../components/SupportText";
+import AIText from "../components/AIText";
 import {View} from "react-native-web";
 
 
@@ -27,15 +33,33 @@ function Payments() {
 
               <Landing />
 
+              <Feature />
+
+              <CashTransfer />
+
+              <CashText />
+
+              <CryptoTransfer />
+
+              <CryptoText />
+
+              <CollectPayments />
+
+              <CollectText />
+
+              <SupportLovedOnes />
+
+              <SupportText />
+
+              <AISupport />
+
+              <AIText />
+              
               <Features />
 
               <Products />
 
-              <Feature />
-
               <UseCases />
-
-              <Product />
 
               <Footer />
 
